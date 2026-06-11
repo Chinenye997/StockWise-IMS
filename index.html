@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StockWise-home</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+  <body>
+    <!-- =========================
+        NAVIGATION BAR
+========================= -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h2>📦 StockWise IMS</h2>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+
+            <li class="dropdown">
+              <a href="#">Inventory ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/products.html">Products</a></li>
+                <li><a href="pages/categories.html">Categories</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Stock ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/stockin.html">Stock In</a></li>
+                <li><a href="pages/stockout.html">Stock Out</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Management ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/suppliers.html">Suppliers</a></li>
+                <li><a href="pages/reports.html">Reports</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+                HERO SECTION
+             ========================= -->
+      <section class="hero">
+        <!-- Slide 1 -->
+        <div class="slide active">
+          <img src="images/hero/stockhero1.jpg" alt="Warehouse Inventory" />
+
+          <div class="hero-content">
+            <h1>Manage Inventory Smarter</h1>
+
+            <p>
+              Track products, suppliers and stock movements effortlessly from
+              one centralized platform.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="pages/products.html" class="btn btn-primary">
+                View Products
+              </a>
+
+              <a href="pages/reports.html" class="btn btn-secondary">
+                View Reports
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+          <img src="images/hero/Hero2.jpg" alt="Business Dashboard" />
+
+          <div class="hero-content">
+            <h1>Monitor Inventory In Real Time</h1>
+
+            <p>
+              Stay informed with accurate stock updates, inventory reports and
+              supplier management.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+          <img src="images/hero/stock-hero2.jpg" alt="Retail Inventory" />
+
+          <div class="hero-content">
+            <h1>Simplify Stock Management</h1>
+
+            <p>
+              Everything your business needs to manage inventory efficiently and
+              professionally.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+            STATISTICS SECTION
+          ========================= -->
+      <section class="container stats">
+        <div class="stat-card">
+          <h2 class="counter" data-target="250">0</h2>
+          <p>Total Products</p>
+        </div>
+
+        <div class="stat-card">
+          <h2 class="counter" data-target="12">0</h2>
+          <p>Categories</p>
+        </div>
+
+        <div class="stat-card">
+          <h2 class="counter" data-target="18">0</h2>
+          <p>Suppliers</p>
+        </div>
+
+        <div class="stat-card">
+          <h2 class="counter" data-target="5">0</h2>
+          <p>Low Stock Items</p>
+        </div>
+      </section>
+
+      <!-- =========================
+     FEATURES SECTION
+========================= -->
+      <section class="container features">
+        <h2 class="section-title">Key Features</h2>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>📦 Inventory Tracking</h3>
+            <p>Monitor all product stock levels in real time.</p>
+          </div>
+
+          <div class="feature-card">
+            <h3>🚚 Supplier Management</h3>
+            <p>Manage and organize all your suppliers easily.</p>
+          </div>
+
+          <div class="feature-card">
+            <h3>📊 Stock Reports</h3>
+            <p>Generate detailed inventory performance reports.</p>
+          </div>
+
+          <div class="feature-card">
+            <h3>⚡ Fast Processing</h3>
+            <p>Quick stock updates with smooth system performance.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+     RECENT ACTIVITY SECTION
+========================= -->
+      <section class="container activity">
+        <h2 class="section-title">Recent Activity</h2>
+
+        <div class="activity-list">
+          <div class="activity-item">
+            <span>📦</span>
+            <p>20 laptops added to inventory</p>
+          </div>
+
+          <div class="activity-item">
+            <span>⚠️</span>
+            <p>5 items marked as low stock</p>
+          </div>
+
+          <div class="activity-item">
+            <span>🚚</span>
+            <p>Supplier delivered new stock of printers</p>
+          </div>
+
+          <div class="activity-item">
+            <span>📊</span>
+            <p>Monthly inventory report generated</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+     WHY CHOOSE STOCKWISE
+========================= -->
+      <section class="container why">
+        <h2 class="section-title">Why Choose StockWise IMS</h2>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <h3>✔ Easy to Use</h3>
+            <p>Simple interface designed for fast learning and daily use.</p>
+          </div>
+
+          <div class="why-card">
+            <h3>✔ Real-Time Tracking</h3>
+            <p>Get instant updates on stock changes and inventory levels.</p>
+          </div>
+
+          <div class="why-card">
+            <h3>✔ Accurate Reports</h3>
+            <p>Generate reliable reports for better business decisions.</p>
+          </div>
+
+          <div class="why-card">
+            <h3>✔ Secure Management</h3>
+            <p>Keep inventory data organized and protected at all times.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+       <!-- =========================
+                  FOOTER
+        ========================= -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>📦 StockWise IMS</h3>
+          <p>Smart Inventory Management System for modern businesses.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="pages/products.html">Products</a></li>
+            <li><a href="pages/categories.html">Categories</a></li>
+            <li><a href="pages/reports.html">Reports</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Management</h4>
+          <ul>
+            <li><a href="pages/suppliers.html">Suppliers</a></li>
+            <li><a href="pages/stockin.html">Stock In</a></li>
+            <li><a href="pages/stockout.html">Stock Out</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>Email: support@stockwise.com</p>
+          <p>Phone: +234 000 000 0000</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StockWise IMS. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
