@@ -3,11 +3,16 @@
 // GLOBAL FUNCTIONALITY
 // =========================
 
-// Mobile Menu Toggle
-function toggleMenu() {
-    const nav = document.querySelector(".nav-links");
-    nav.classList.toggle("active");
-}
+/* =========================
+   MOBILE NAVIGATION
+========================= */
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-menu");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
 
 // Dropdown Toggle (for mobile)
 document.addEventListener("click", function(e) {

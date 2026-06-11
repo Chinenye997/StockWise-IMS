@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | StockWise IMS</title>
+
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/products.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- =========================
+        NAVIGATION BAR
+========================= -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h2>📦 StockWise IMS</h2>
+        </div>
+
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+
+            <li class="dropdown">
+              <a href="#">Inventory ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/products.html">Products</a></li>
+                <li><a href="pages/categories.html">Categories</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Stock ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/stockin.html">Stock In</a></li>
+                <li><a href="pages/stockout.html">Stock Out</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Management ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/suppliers.html">Suppliers</a></li>
+                <li><a href="pages/reports.html">Reports</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+     PRODUCTS HERO
+========================= -->
+      <section class="products-hero">
+        <div class="products-hero-content">
+          <h1>Inventory Products</h1>
+          <p>
+            Manage, track and monitor all products available in your inventory.
+          </p>
+        </div>
+      </section>
+
+      <!-- =========================
+     PRODUCT STATISTICS
+========================= -->
+      <section class="product-stats container">
+        <div class="product-stat-card">
+          <h2>250</h2>
+          <p>Total Products</p>
+        </div>
+
+        <div class="product-stat-card">
+          <h2>180</h2>
+          <p>In Stock</p>
+        </div>
+
+        <div class="product-stat-card">
+          <h2>25</h2>
+          <p>Low Stock</p>
+        </div>
+
+        <div class="product-stat-card">
+          <h2>45</h2>
+          <p>Out of Stock</p>
+        </div>
+      </section>
+
+      <!-- =========================
+     SEARCH & ACTION BAR
+========================= -->
+      <section class="container product-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Search products..." />
+        </div>
+
+        <div class="filter-box">
+          <select class="category-filter">
+            <option value="all">All Categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="food">Food</option>
+          </select>
+        </div>
+
+        <div class="add-btn">
+          <button class="btn btn-primary" id="openModal">+ Add Product</button>
+        </div>
+      </section>
+
+      <!-- =========================
+     PRODUCTS TABLE
+========================= -->
+      <section class="container product-table-section">
+        <h2 class="section-title">Product List</h2>
+
+        <div class="table-wrapper">
+          <table class="product-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>001</td>
+                <td>Laptop</td>
+                <td>Electronics</td>
+                <td>25</td>
+                <td>$500</td>
+                <td><span class="status in-stock">In Stock</span></td>
+                <td>
+                  <button class="edit-btn">Edit</button>
+                  <button class="delete-btn">Delete</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>002</td>
+                <td>Printer</td>
+                <td>Electronics</td>
+                <td>5</td>
+                <td>$200</td>
+                <td><span class="status low-stock">Low Stock</span></td>
+                <td>
+                  <button class="edit-btn">Edit</button>
+                  <button class="delete-btn">Delete</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>003</td>
+                <td>Rice</td>
+                <td>Food</td>
+                <td>100</td>
+                <td>$30</td>
+                <td><span class="status in-stock">In Stock</span></td>
+                <td>
+                  <button class="edit-btn">Edit</button>
+                  <button class="delete-btn">Delete</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- =========================
+          PRODUCT CARDS
+        ========================= -->
+      <section class="container product-cards-section">
+        <h2 class="section-title">Featured Products</h2>
+
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="../images/products/laptop.jpg" alt="Laptop" />
+            <h3>Laptop</h3>
+            <p>Electronics</p>
+            <span>$500</span>
+          </div>
+
+          <div class="product-card">
+            <img src="../images/products/printer.jpg" alt="Printer" />
+            <h3>Printer</h3>
+            <p>Electronics</p>
+            <span>$200</span>
+          </div>
+
+          <div class="product-card">
+            <img src="../images/products/rice.jpg" alt="Rice" />
+            <h3>Rice</h3>
+            <p>Food</p>
+            <span>$30</span>
+          </div>
+        </div>
+      </section>
+      <!-- =========================
+     ADD PRODUCT MODAL
+========================= -->
+
+      <div class="modal" id="productModal">
+        <div class="modal-content">
+          <h2>Add New Product</h2>
+
+          <form>
+            <input type="text" placeholder="Product Name" required />
+
+            <input type="text" placeholder="Category" required />
+
+            <input type="number" placeholder="Quantity" required />
+
+            <input type="number" placeholder="Price" required />
+
+            <select required>
+              <option value="">Status</option>
+              <option>In Stock</option>
+              <option>Low Stock</option>
+              <option>Out of Stock</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">Save Product</button>
+          </form>
+
+          <button class="close-modal" id="closeModal">X</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- =========================
+                  FOOTER
+        ========================= -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>📦 StockWise IMS</h3>
+          <p>Smart Inventory Management System for modern businesses.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="pages/products.html">Products</a></li>
+            <li><a href="pages/categories.html">Categories</a></li>
+            <li><a href="pages/reports.html">Reports</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Management</h4>
+          <ul>
+            <li><a href="pages/suppliers.html">Suppliers</a></li>
+            <li><a href="pages/stockin.html">Stock In</a></li>
+            <li><a href="pages/stockout.html">Stock Out</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>Email: support@stockwise.com</p>
+          <p>Phone: +234 000 000 0000</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StockWise IMS. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
+  </body>
+</html>

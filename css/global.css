@@ -107,6 +107,13 @@ body {
   display: block;
 }
 
+/* Mobile Menu Icon */
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 /* =========================
    BUTTONS
 ========================= */
@@ -148,4 +155,45 @@ body {
   padding: 40px 0;
   margin-top: 50px;
   text-align: center;
+}
+
+/* Mobile Navbar */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--white);
+        display: none;
+        padding: 20px;
+        border-top: 1px solid var(--border);
+    }
+
+    .nav-menu.active {
+        display: block;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        display: none;
+        box-shadow: none;
+        border: none;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
 }
