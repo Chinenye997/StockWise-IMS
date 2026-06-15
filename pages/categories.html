@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories | StockWise IMS</title>
+
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/categories.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- =========================
+        NAVIGATION BAR
+========================= -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h2>📦 StockWise IMS</h2>
+        </div>
+
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="../index.html">Dashboard</a></li>
+
+            <li class="dropdown">
+              <a href="#">Inventory ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="products.html">Products</a></li>
+                <li><a href="../categories.html">Categories</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Stock ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="stockin.html">Stock In</a></li>
+                <li><a href="stockout.html">Stock Out</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Management ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="suppliers.html">Suppliers</a></li>
+                <li><a href="reports.html">Reports</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+           <!-- =========================
+                 CATEGORIES HERO
+          ========================= -->
+      <section class="categories-hero">
+        <div class="categories-hero-content">
+          <h1>Product Categories</h1>
+          <p>
+            Organize inventory products into categories for easier management
+            and tracking.
+          </p>
+        </div>
+      </section>
+
+           <!-- =========================
+                CATEGORY STATISTICS
+           ========================= -->
+      <section class="category-stats container">
+        <div class="category-stat-card">
+          <h2>12</h2>
+          <p>Total Categories</p>
+        </div>
+
+        <div class="category-stat-card">
+          <h2>250</h2>
+          <p>Total Products</p>
+        </div>
+
+        <div class="category-stat-card">
+          <h2>5</h2>
+          <p>Top Categories</p>
+        </div>
+
+        <div class="category-stat-card">
+          <h2>98%</h2>
+          <p>Organized Inventory</p>
+        </div>
+      </section>
+
+         <!-- =========================
+              SEARCH & ACTION BAR
+          ========================= -->
+      <section class="container category-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Search categories..." />
+        </div>
+
+        <div class="add-btn">
+          <button class="btn btn-primary" id="openCategoryModal">
+            + Add Category
+          </button>
+        </div>
+      </section>
+
+           <!-- =========================
+                 CATEGORIES TABLE
+           ========================= -->
+      <section class="container category-table-section">
+        <h2 class="section-title">Category List</h2>
+
+        <div class="table-wrapper">
+          <table class="category-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Category Name</th>
+                <th>Total Products</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>CAT001</td>
+                <td>Electronics</td>
+                <td>45</td>
+                <td>
+                  <span class="status in-stock">Active</span>
+                </td>
+                <td>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>CAT002</td>
+                <td>Food & Beverages</td>
+                <td>80</td>
+                <td>
+                  <span class="status in-stock">Active</span>
+                </td>
+                <td>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>CAT003</td>
+                <td>Office Supplies</td>
+                <td>25</td>
+                <td>
+                  <span class="status low-stock">Limited</span>
+                </td>
+                <td>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+             <!-- =========================
+                    CATEGORY CARDS
+               ========================= -->
+      <section class="container category-cards-section">
+        <h2 class="section-title">Featured Categories</h2>
+
+        <div class="category-cards">
+          <div class="category-card">
+            <img src="../images/projucts/hero7.jpg" alt="Laptop" />
+            <h3>Electronics</h3>
+            <p>25 Products</p>
+          </div>
+
+          <div class="category-card">
+            <img src="../images/projucts/Printer.jpg" alt="Printer" />
+            <h3>Electronics</h3>
+            <p>5 Products</p>
+          </div>
+
+          <!-- <div class="category-card">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Office Supplies</h3>
+            <p>25 Products</p>
+          </div> -->
+
+          <div class="category-card">
+            <img src="../images/projucts/Furniture1.jpg" alt="Furniture" />
+            <h3>Furniture</h3>
+            <p>100 Products</p>
+          </div>
+        </div>
+      </section>
+
+          <!-- =========================
+               ADD CATEGORY MODAL
+           ========================= -->
+
+      <div class="modal" id="categoryModal">
+        <div class="modal-content">
+          <h2>Add New Category</h2>
+
+          <form>
+            <input type="text" placeholder="Category Name" required />
+
+            <textarea placeholder="Category Description" rows="4"></textarea>
+
+            <button type="submit" class="btn btn-primary">Save Category</button>
+          </form>
+
+          <button class="close-modal" id="closeCategoryModal">X</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- =========================
+                  FOOTER
+        ========================= -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>📦 StockWise IMS</h3>
+          <p>Smart Inventory Management System for modern businesses.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="pages/products.html">Products</a></li>
+            <li><a href="pages/categories.html">Categories</a></li>
+            <li><a href="pages/reports.html">Reports</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Management</h4>
+          <ul>
+            <li><a href="pages/suppliers.html">Suppliers</a></li>
+            <li><a href="pages/stockin.html">Stock In</a></li>
+            <li><a href="pages/stockout.html">Stock Out</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>Email: support@stockwise.com</p>
+          <p>Phone: +234 000 000 0000</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StockWise IMS. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/categories.js"></script>
+  </body>
+</html>

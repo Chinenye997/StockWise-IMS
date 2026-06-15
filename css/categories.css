@@ -1,0 +1,280 @@
+/* =========================
+   CATEGORIES HERO
+========================= */
+
+.categories-hero {
+  height: 50vh;
+  background: linear-gradient(
+      rgba(36, 78, 169, 0.6),
+      rgba(21, 51, 116, 0.8)
+    ),
+    url("../images/hero/hero1.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+}
+
+.categories-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.categories-hero-content p {
+  font-size: 1.1rem;
+}
+
+/* =========================
+   CATEGORY STATS
+========================= */
+
+.category-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  margin-top: 50px;
+}
+
+.category-stat-card {
+  background: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.category-stat-card h2 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+/* =========================
+   CATEGORY ACTIONS
+========================= */
+
+.category-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.category-actions .search-box input {
+  width: 250px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   CATEGORY TABLE
+========================= */
+
+.category-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-bottom: 15px;
+}
+
+.category-table th,
+.category-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.category-table th {
+  background: var(--primary);
+  color: white;
+}
+
+.category-table tr:hover {
+  background: #f8fafc;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 30px;
+}
+
+/* ACTION BUTTONS */
+
+.edit-btn {
+  padding: 5px 10px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* =========================
+   CATEGORY CARDS
+========================= */
+
+.category-cards-section {
+  margin-top: 30px;
+}
+
+.category-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.category-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  margin-bottom: 5px;
+}
+
+.category-card p {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+/* =========================
+   CATEGORY MODAL
+========================= */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 450px;
+
+  background: white;
+
+  padding: 25px;
+  border-radius: 12px;
+
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+
+  padding: 12px;
+  margin-bottom: 15px;
+
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  border: none;
+  background: red;
+  color: white;
+
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .category-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .categories-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .category-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .category-actions .search-box input {
+    width: 100%;
+  }
+
+  .category-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .edit-btn,
+  .delete-btn {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .category-cards {
+    grid-template-columns: 1fr;
+  }
+}

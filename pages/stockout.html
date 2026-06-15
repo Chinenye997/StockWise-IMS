@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Out | StockWise IMS</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/stockout.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- =========================
+        NAVIGATION BAR
+     ========================= -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h2>📦 StockWise IMS</h2>
+        </div>
+
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="../index.html">Dashboard</a></li>
+
+            <li class="dropdown">
+              <a href="#">Inventory ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="products.html">Products</a></li>
+                <li><a href="categories.html">Categories</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Stock ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="stockin.html">Stock In</a></li>
+                <li><a href="stockout.html">Stock Out</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Management ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="suppliers.html">Suppliers</a></li>
+                <li><a href="reports.html">Reports</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =========================
+             STOCK IN HEADER
+        ========================= -->
+
+    <section class="page-header container">
+      <h1>Stock Out Management</h1>
+
+      <p>Record and monitor products leaving the inventory.</p>
+    </section>
+
+    <!-- =========================
+             STOCK IN STATS
+       ========================= -->
+
+    <section class="stockin-stats container">
+      <div class="stat-card">
+        <h2>120</h2>
+        <p>Total Stock Out Entries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>2,100</h2>
+        <p>Items Removed</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>35</h2>
+        <p>Orders Processed</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>₦1.8M</h2>
+        <p>Products Sold</p>
+      </div>
+    </section>
+
+    <!-- =========================
+     STOCK IN FORM
+========================= -->
+
+    <section class="container stockin-form-section">
+      <h2 class="section-title">Record Stock Out</h2>
+
+      <form class="stockin-form">
+        <div class="form-group">
+          <label>Product</label>
+          <select>
+            <option>Select Product</option>
+            <option>Laptop</option>
+            <option>Printer</option>
+            <option>Rice</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Supplier</label>
+          <select>
+            <option>Select Supplier</option>
+            <option>Tech Supplies Ltd</option>
+            <option>Food World</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Quantity</label>
+          <input type="number" placeholder="Enter Quantity" />
+        </div>
+
+        <div class="form-group">
+          <label>Date Received</label>
+          <input type="date" />
+        </div>
+
+        <div class="form-group full-width">
+          <label>Notes</label>
+          <textarea rows="4" placeholder="Additional notes..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Save Stock Out Entry
+        </button>
+      </form>
+    </section>
+
+        <!-- =========================
+                STOCK IN RECORDS
+        ========================= -->
+
+    <section class="container stockin-table-section">
+      <h2 class="section-title">Recent Stock Out Records</h2>
+
+      <div class="table-wrapper">
+        <table class="stockin-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Product</th>
+              <th>Supplier</th>
+              <th>Quantity</th>
+              <th>Date</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>OUT001</td>
+              <td>Laptop</td>
+              <td>Customer Order</td>
+              <td>5</td>
+              <td>15 Jun 2026</td>
+              <td><span class="status low-stock">Dispatched</span></td>
+            </tr>
+
+            <tr>
+              <td>OUT002</td>
+              <td>Printer</td>
+              <td>Office Use</td>
+              <td>2</td>
+              <td>16 Jun 2026</td>
+              <td><span class="status low-stock">Dispatched</span></td>
+            </tr>
+
+            <tr>
+              <td>OUT003</td>
+              <td>Rice</td>
+              <td>Customer Order</td>
+              <td>50</td>
+              <td>17 Jun 2026</td>
+              <td><span class="status low-stock">Dispatched</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- =========================
+                  FOOTER
+        ========================= -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>📦 StockWise IMS</h3>
+          <p>Smart Inventory Management System for modern businesses.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="pages/products.html">Products</a></li>
+            <li><a href="pages/categories.html">Categories</a></li>
+            <li><a href="pages/reports.html">Reports</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Management</h4>
+          <ul>
+            <li><a href="pages/suppliers.html">Suppliers</a></li>
+            <li><a href="pages/stockin.html">Stock In</a></li>
+            <li><a href="pages/stockout.html">Stock Out</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>Email: support@stockwise.com</p>
+          <p>Phone: +234 000 000 0000</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StockWise IMS. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/stockout.js"></script>
+  </body>
+</html>
