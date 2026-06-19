@@ -67,143 +67,173 @@
       </div>
     </header>
 
-    <!-- =========================
+    <main>
+      <!-- =========================
              STOCK IN HEADER
         ========================= -->
 
-    <section class="page-header container">
-      <h1>Stock In Management</h1>
+      <section class="page-header container">
+        <h1>Stock In Management</h1>
 
-      <p>Record and monitor products entering the inventory.</p>
-    </section>
+        <p>Record and monitor products entering the inventory.</p>
+      </section>
 
-    <!-- =========================
+      <!-- =========================
              STOCK IN STATS
        ========================= -->
 
-    <section class="stockin-stats container">
-      <div class="stat-card">
-        <h2>150</h2>
-        <p>Total Stock Entries</p>
-      </div>
+      <section class="stockin-stats container">
+        <div class="stat-card">
+          <h2>150</h2>
+          <p>Total Stock Entries</p>
+        </div>
 
-      <div class="stat-card">
-        <h2>3,250</h2>
-        <p>Items Added</p>
-      </div>
+        <div class="stat-card">
+          <h2>3,250</h2>
+          <p>Items Added</p>
+        </div>
 
-      <div class="stat-card">
-        <h2>25</h2>
-        <p>Suppliers</p>
-      </div>
+        <div class="stat-card">
+          <h2>25</h2>
+          <p>Suppliers</p>
+        </div>
 
-      <div class="stat-card">
-        <h2>₦2.5M</h2>
-        <p>Inventory Value</p>
-      </div>
-    </section>
+        <div class="stat-card">
+          <h2>₦2.5M</h2>
+          <p>Inventory Value</p>
+        </div>
+      </section>
 
-    <!-- =========================
+      <!-- =========================
      STOCK IN FORM
 ========================= -->
 
-    <section class="container stockin-form-section">
-      <h2 class="section-title">Add New Stock</h2>
+      <section class="container stockin-form-section">
+        <h2 class="section-title">Add New Stock</h2>
 
-      <form class="stockin-form">
-        <div class="form-group">
-          <label>Product</label>
-          <select>
-            <option>Select Product</option>
-            <option>Laptop</option>
-            <option>Printer</option>
-            <option>Rice</option>
-          </select>
+        <form class="stockin-form">
+          <div class="form-group">
+            <label>Product</label>
+            <select>
+              <option>Select Product</option>
+              <option>Laptop</option>
+              <option>Printer</option>
+              <option>Rice</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Supplier</label>
+            <select>
+              <option>Select Supplier</option>
+              <option>Tech Supplies Ltd</option>
+              <option>Food World</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Quantity</label>
+            <input type="number" placeholder="Enter Quantity" />
+          </div>
+
+          <div class="form-group">
+            <label>Date Received</label>
+            <input type="date" />
+          </div>
+
+          <div class="form-group full-width">
+            <label>Notes</label>
+            <textarea rows="4" placeholder="Additional notes..."></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit" class="btn btn-primary">
+              Save Stock Entry
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- =========================
+                 STOCK IN RECORDS
+         ========================= -->
+
+      <section class="container stockin-table-section">
+        <h2 class="section-title">Recent Stock Entries</h2>
+
+        <div class="search-box stock-search">
+          <input
+            type="text"
+            placeholder="Search stock entries..."
+            id="stockSearch"
+          />
         </div>
 
-        <div class="form-group">
-          <label>Supplier</label>
-          <select>
-            <option>Select Supplier</option>
-            <option>Tech Supplies Ltd</option>
-            <option>Food World</option>
-          </select>
+        <div class="table-wrapper">
+          <table class="stockin-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Product</th>
+                <th>Supplier</th>
+                <th>Quantity</th>
+                <th>Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>STK001</td>
+                <td>Laptop</td>
+                <td>Tech Supplies Ltd</td>
+                <td>20</td>
+                <td>12 Jun 2026</td>
+                <td><span class="status in-stock">Received</span></td>
+              </tr>
+
+              <tr>
+                <td>STK002</td>
+                <td>Printer</td>
+                <td>Tech Supplies Ltd</td>
+                <td>10</td>
+                <td>14 Jun 2026</td>
+                <td><span class="status in-stock">Received</span></td>
+              </tr>
+
+              <tr>
+                <td>STK003</td>
+                <td>Rice</td>
+                <td>Food World</td>
+                <td>100</td>
+                <td>15 Jun 2026</td>
+                <td><span class="status in-stock">Received</span></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
-        <div class="form-group">
-          <label>Quantity</label>
-          <input type="number" placeholder="Enter Quantity" />
-        </div>
+        <!-- =========================
+                RECENT ACTIVITY
+      ========================= -->
 
-        <div class="form-group">
-          <label>Date Received</label>
-          <input type="date" />
-        </div>
+        <section class="container recent-activity">
+          <h2 class="section-title">Recent Activity</h2>
 
-        <div class="form-group full-width">
-          <label>Notes</label>
-          <textarea rows="4" placeholder="Additional notes..."></textarea>
-        </div>
+          <div class="activity-list">
+            <div class="activity-item">
+              ✅ 20 Laptops added by Tech Supplies Ltd
+            </div>
 
-        <div class="form-group full-width">
-          <button type="submit" class="btn btn-primary">
-            Save Stock Entry
-          </button>
-        </div>
-      </form>
-    </section>
+            <div class="activity-item">
+              ✅ 100 Bags of Rice received from Food World
+            </div>
 
-    <!-- =========================
-     STOCK IN RECORDS
-========================= -->
-
-    <section class="container stockin-table-section">
-      <h2 class="section-title">Recent Stock Entries</h2>
-
-      <div class="table-wrapper">
-        <table class="stockin-table">
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Product</th>
-              <th>Supplier</th>
-              <th>Quantity</th>
-              <th>Date</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>STK001</td>
-              <td>Laptop</td>
-              <td>Tech Supplies Ltd</td>
-              <td>20</td>
-              <td>12 Jun 2026</td>
-              <td><span class="status in-stock">Received</span></td>
-            </tr>
-
-            <tr>
-              <td>STK002</td>
-              <td>Printer</td>
-              <td>Tech Supplies Ltd</td>
-              <td>10</td>
-              <td>14 Jun 2026</td>
-              <td><span class="status in-stock">Received</span></td>
-            </tr>
-
-            <tr>
-              <td>STK003</td>
-              <td>Rice</td>
-              <td>Food World</td>
-              <td>100</td>
-              <td>15 Jun 2026</td>
-              <td><span class="status in-stock">Received</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+            <div class="activity-item">✅ 10 Printers added to inventory</div>
+          </div>
+        </section>
+      </section>
+    </main>
 
     <!-- =========================
                   FOOTER

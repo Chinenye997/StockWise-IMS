@@ -115,6 +115,43 @@
   overflow-x: auto;
 }
 
+.stock-search {
+  margin: 20px 0;
+}
+
+.stock-search input {
+  width: 300px;
+  max-width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* =========================
+   RECENT ACTIVITY
+========================= */
+
+.recent-activity {
+  margin-top: 50px;
+}
+
+.activity-list {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.activity-item {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
 @media (max-width: 768px) {
   .stockin-stats {
     grid-template-columns: repeat(2, 1fr);

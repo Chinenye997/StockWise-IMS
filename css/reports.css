@@ -1,0 +1,128 @@
+/* =========================
+   REPORT STATS
+========================= */
+
+.reports-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* =========================
+   FILTERS
+========================= */
+
+.report-filters {
+  margin-top: 50px;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.filter-grid input,
+.filter-grid select {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* =========================
+   REPORT TABLE
+========================= */
+
+.reports-table-section {
+  margin-top: 50px;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.reports-table th {
+  background: var(--primary);
+  color: white;
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* =========================
+   TOP PRODUCTS
+========================= */
+
+.top-products {
+  margin-top: 50px;
+}
+
+.section-title{
+    margin-bottom: 10px;
+}
+
+.product-ranking {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.rank-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   EXPORT SECTION
+========================= */
+
+.export-section {
+  margin-top: 50px;
+}
+
+.export-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .reports-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-ranking {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .reports-stats {
+    grid-template-columns: 1fr;
+  }
+}

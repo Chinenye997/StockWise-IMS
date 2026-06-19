@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories | StockWise IMS</title>
+
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/suppliers.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- =========================
+        NAVIGATION BAR
+========================= -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h2>📦 StockWise IMS</h2>
+        </div>
+
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="../index.html">Dashboard</a></li>
+
+            <li class="dropdown">
+              <a href="#">Inventory ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="products.html">Products</a></li>
+                <li><a href="categories.html">Categories</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Stock ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="stockin.html">Stock In</a></li>
+                <li><a href="stockout.html">Stock Out</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Management ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="suppliers.html">Suppliers</a></li>
+                <li><a href="reports.html">Reports</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+              SUPPLIERS HEADER
+         ========================= -->
+
+      <section class="page-header container">
+        <h1>Supplier Management</h1>
+
+        <p>Manage supplier information and monitor supplier performance.</p>
+      </section>
+
+      <!-- =========================
+     SUPPLIER STATS
+========================= -->
+
+      <section class="suppliers-stats container">
+        <div class="stat-card">
+          <h2>25</h2>
+          <p>Total Suppliers</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>18</h2>
+          <p>Active Suppliers</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>5</h2>
+          <p>New This Month</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>98%</h2>
+          <p>Delivery Success</p>
+        </div>
+      </section>
+
+      <!-- =========================
+                  SEARCH & ACTIONS
+             ========================= -->
+
+      <section class="container supplier-actions">
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Search suppliers..."
+            id="supplierSearch"
+          />
+        </div>
+
+        <button class="btn btn-primary" id="openSupplierModal">
+          + Add Supplier
+        </button>
+      </section>
+
+      <!-- =========================
+                     SUPPLIERS TABLE
+             ========================= -->
+
+      <section class="container suppliers-table-section">
+        <h2 class="section-title">Supplier List</h2>
+
+        <div class="table-wrapper">
+          <table class="suppliers-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Supplier</th>
+                <th>Category</th>
+                <th>Contact</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>SUP001</td>
+                <td>Tech Supplies Ltd</td>
+                <td>Electronics</td>
+                <td>+234 800 111 2222</td>
+                <td>
+                  <span class="status in-stock">Active</span>
+                </td>
+                <td>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>SUP002</td>
+                <td>Food World</td>
+                <td>Food Products</td>
+                <td>+234 800 333 4444</td>
+                <td>
+                  <span class="status in-stock">Active</span>
+                </td>
+                <td>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+            <!-- =========================
+                   FEATURED SUPPLIERS
+             ========================= -->
+
+      <section class="container supplier-cards-section">
+        <h2 class="section-title">Featured Suppliers</h2>
+
+        <div class="supplier-cards">
+          <div class="supplier-card">
+            <h3>Tech Supplies Ltd</h3>
+            <p>Electronics Supplier</p>
+            <span>★★★★★</span>
+          </div>
+
+          <div class="supplier-card">
+            <h3>Food World</h3>
+            <p>Food Products Supplier</p>
+            <span>★★★★★</span>
+          </div>
+
+          <div class="supplier-card">
+            <h3>Office Mart</h3>
+            <p>Office Equipment Supplier</p>
+            <span>★★★★☆</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+     SUPPLIER MODAL
+========================= -->
+
+      <div class="modal" id="supplierModal">
+        <div class="modal-content">
+          <h2>Add Supplier</h2>
+
+          <form>
+            <input type="text" placeholder="Supplier Name" required />
+
+            <input type="text" placeholder="Category" required />
+
+            <input type="tel" placeholder="Phone Number" required />
+
+            <textarea rows="4" placeholder="Address"></textarea>
+
+            <button type="submit" class="btn btn-primary">Save Supplier</button>
+          </form>
+
+          <button class="close-modal" id="closeSupplierModal">X</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- =========================
+                  FOOTER
+        ========================= -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>📦 StockWise IMS</h3>
+          <p>Smart Inventory Management System for modern businesses.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="pages/products.html">Products</a></li>
+            <li><a href="pages/categories.html">Categories</a></li>
+            <li><a href="pages/reports.html">Reports</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Management</h4>
+          <ul>
+            <li><a href="pages/suppliers.html">Suppliers</a></li>
+            <li><a href="pages/stockin.html">Stock In</a></li>
+            <li><a href="pages/stockout.html">Stock Out</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>Email: support@stockwise.com</p>
+          <p>Phone: +234 000 000 0000</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StockWise IMS. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/suppliers.js"></script>
+  </body>
+</html>

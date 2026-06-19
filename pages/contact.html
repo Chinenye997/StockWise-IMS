@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts | StockWise-IMS</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- =========================
+                  NAVIGATION BAR
+          ========================= -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h2>📦 StockWise IMS</h2>
+        </div>
+
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="../index.html">Dashboard</a></li>
+
+            <li class="dropdown">
+              <a href="#">Inventory ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="products.html">Products</a></li>
+                <li><a href="categories.html">Categories</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Stock ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="stockin.html">Stock In</a></li>
+                <li><a href="stockout.html">Stock Out</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#">Management ▾</a>
+              <ul class="dropdown-menu">
+                <li><a href="suppliers.html">Suppliers</a></li>
+                <li><a href="reports.html">Reports</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+     CONTACT HEADER
+========================= -->
+
+      <section class="page-header container">
+        <h1>Contact Us</h1>
+
+        <p>
+          Get in touch with our team for support, inquiries, and inventory
+          management assistance.
+        </p>
+      </section>
+
+      <!-- =========================
+     CONTACT INFO
+========================= -->
+
+      <section class="container contact-info">
+        <div class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone</h3>
+          <p>+234 800 123 4567</p>
+          <p>+234 800 765 4321</p>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <p>support@stockwise.com</p>
+          <p>info@stockwise.com</p>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Address</h3>
+          <p>30B, 66 Park Avenue, GRA, Enugu 400102</p>
+          <p>Enugu Nigeria</p>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa-solid fa-clock"></i>
+          <h3>Working Hours</h3>
+          <p>Mon - Fri: 8AM - 6PM</p>
+          <p>Sat: 9AM - 3PM</p>
+        </div>
+      </section>
+
+      <!-- =========================
+     CONTACT CONTENT
+========================= -->
+
+      <!-- =========================
+     CONTACT & MAP
+========================= -->
+
+      <section class="container contact-map-section">
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h2 class="section-title">Send Us a Message</h2>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Full Name" required />
+
+            <input type="email" placeholder="Email Address" required />
+
+            <input type="tel" placeholder="Phone Number" />
+
+            <input type="text" placeholder="Subject" required />
+
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Google Map -->
+        <div class="map-wrapper">
+          <h2 class="section-title">Find Us</h2>
+
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4676093212056!2d7.5031132732125405!3d6.462288823875329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a395b29f7f1b%3A0xebd291be6cb4465b!2sBluetag%20Technologies!5e0!3m2!1sen!2sng!4v1781879157893!5m2!1sen!2sng"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+     FAQ ACCORDION
+    ======================== -->
+
+    <section class="container faq-section">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>How do I track inventory?</span>
+
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+        <div class="faq-answer">
+          <p>Use the Products and Reports pages to monitor stock levels.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>How do I add new stock?</span>
+
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Navigate to the Stock In page and complete the stock entry form.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>How do I remove stock?</span>
+
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+        <div class="faq-answer">
+          <p>Visit the Stock Out page and record dispatched items.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>Can I generate reports?</span>
+
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+        <div class="faq-answer">
+          <p>Yes. Use the Reports page to generate inventory summaries.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+                  FOOTER
+        ========================= -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>📦 StockWise IMS</h3>
+          <p>Smart Inventory Management System for modern businesses.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="pages/products.html">Products</a></li>
+            <li><a href="pages/categories.html">Categories</a></li>
+            <li><a href="pages/reports.html">Reports</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Management</h4>
+          <ul>
+            <li><a href="pages/suppliers.html">Suppliers</a></li>
+            <li><a href="pages/stockin.html">Stock In</a></li>
+            <li><a href="pages/stockout.html">Stock Out</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>Email: support@stockwise.com</p>
+          <p>Phone: +234 000 000 0000</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StockWise IMS. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/contact.js"></script>
+  </body>
+</html>

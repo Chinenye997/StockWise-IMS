@@ -67,141 +67,154 @@
       </div>
     </header>
 
-    <!-- =========================
-             STOCK IN HEADER
+    <main>
+      <!-- =========================
+                    PAGE HEADER
+           ========================= -->
+      <section class="page-header container">
+        <h1>Stock Out Management</h1>
+        <p>Record and monitor products leaving the inventory.</p>
+      </section>
+
+      <!-- =========================
+                   STOCK OUT STATS
+           ========================= -->
+      <section class="stockout-stats container">
+        <div class="stat-card">
+          <h2>120</h2>
+          <p>Total Stock Out Records</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>2,100</h2>
+          <p>Items Removed</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>75</h2>
+          <p>Orders Processed</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>₦1.8M</h2>
+          <p>Value Removed</p>
+        </div>
+      </section>
+
+      <!-- =========================
+                   STOCK OUT FORM
+          ========================= -->
+      <section class="container stockout-form-section">
+        <h2 class="section-title">Remove Stock</h2>
+
+        <form class="stockout-form">
+          <div class="form-group">
+            <label>Product</label>
+            <select>
+              <option>Select Product</option>
+              <option>Laptop</option>
+              <option>Printer</option>
+              <option>Rice</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Quantity</label>
+            <input type="number" placeholder="Enter Quantity" />
+          </div>
+
+          <div class="form-group">
+            <label>Date Issued</label>
+            <input type="date" />
+          </div>
+
+          <div class="form-group">
+            <label>Destination</label>
+            <input type="text" placeholder="Customer / Department" />
+          </div>
+
+          <div class="form-group full-width">
+            <label>Notes</label>
+            <textarea rows="4"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit" class="btn btn-primary">
+              Save Stock Out Record
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- =========================
+                 STOCK OUT RECORDS
+          ========================= -->
+      <section class="container stockout-table-section">
+        <h2 class="section-title">Recent Stock Out Records</h2>
+
+        <div class="search-box stock-search">
+          <input
+            type="text"
+            placeholder="Search stock out records..."
+            id="stockOutSearch"
+          />
+        </div>
+
+        <div class="table-wrapper">
+          <table class="stockout-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Destination</th>
+                <th>Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>OUT001</td>
+                <td>Laptop</td>
+                <td>5</td>
+                <td>Sales Department</td>
+                <td>15 Jun 2026</td>
+                <td><span class="status low-stock">Dispatched</span></td>
+              </tr>
+
+              <tr>
+                <td>OUT002</td>
+                <td>Rice</td>
+                <td>25</td>
+                <td>Customer Order</td>
+                <td>16 Jun 2026</td>
+                <td><span class="status low-stock">Dispatched</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- =========================
+             RECENT ACTIVITY
         ========================= -->
+      <section class="container recent-activity">
+        <h2 class="section-title">Recent Activity</h2>
 
-    <section class="page-header container">
-      <h1>Stock Out Management</h1>
+        <div class="activity-list">
+          <div class="activity-item">
+            📤 5 Laptops dispatched to Sales Department
+          </div>
 
-      <p>Record and monitor products leaving the inventory.</p>
-    </section>
+          <div class="activity-item">
+            📤 25 Bags of Rice dispatched to Customer Order
+          </div>
 
-    <!-- =========================
-             STOCK IN STATS
-       ========================= -->
-
-    <section class="stockin-stats container">
-      <div class="stat-card">
-        <h2>120</h2>
-        <p>Total Stock Out Entries</p>
-      </div>
-
-      <div class="stat-card">
-        <h2>2,100</h2>
-        <p>Items Removed</p>
-      </div>
-
-      <div class="stat-card">
-        <h2>35</h2>
-        <p>Orders Processed</p>
-      </div>
-
-      <div class="stat-card">
-        <h2>₦1.8M</h2>
-        <p>Products Sold</p>
-      </div>
-    </section>
-
-    <!-- =========================
-     STOCK IN FORM
-========================= -->
-
-    <section class="container stockin-form-section">
-      <h2 class="section-title">Record Stock Out</h2>
-
-      <form class="stockin-form">
-        <div class="form-group">
-          <label>Product</label>
-          <select>
-            <option>Select Product</option>
-            <option>Laptop</option>
-            <option>Printer</option>
-            <option>Rice</option>
-          </select>
+          <div class="activity-item">📤 10 Printers removed from inventory</div>
         </div>
-
-        <div class="form-group">
-          <label>Supplier</label>
-          <select>
-            <option>Select Supplier</option>
-            <option>Tech Supplies Ltd</option>
-            <option>Food World</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Quantity</label>
-          <input type="number" placeholder="Enter Quantity" />
-        </div>
-
-        <div class="form-group">
-          <label>Date Received</label>
-          <input type="date" />
-        </div>
-
-        <div class="form-group full-width">
-          <label>Notes</label>
-          <textarea rows="4" placeholder="Additional notes..."></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">
-          Save Stock Out Entry
-        </button>
-      </form>
-    </section>
-
-        <!-- =========================
-                STOCK IN RECORDS
-        ========================= -->
-
-    <section class="container stockin-table-section">
-      <h2 class="section-title">Recent Stock Out Records</h2>
-
-      <div class="table-wrapper">
-        <table class="stockin-table">
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Product</th>
-              <th>Supplier</th>
-              <th>Quantity</th>
-              <th>Date</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>OUT001</td>
-              <td>Laptop</td>
-              <td>Customer Order</td>
-              <td>5</td>
-              <td>15 Jun 2026</td>
-              <td><span class="status low-stock">Dispatched</span></td>
-            </tr>
-
-            <tr>
-              <td>OUT002</td>
-              <td>Printer</td>
-              <td>Office Use</td>
-              <td>2</td>
-              <td>16 Jun 2026</td>
-              <td><span class="status low-stock">Dispatched</span></td>
-            </tr>
-
-            <tr>
-              <td>OUT003</td>
-              <td>Rice</td>
-              <td>Customer Order</td>
-              <td>50</td>
-              <td>17 Jun 2026</td>
-              <td><span class="status low-stock">Dispatched</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- =========================
                   FOOTER
