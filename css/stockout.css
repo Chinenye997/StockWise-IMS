@@ -113,6 +113,17 @@
   border-radius: 6px;
 }
 
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.stockout-table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+}
+
 /* =========================
    RECENT ACTIVITY
 ========================= */
@@ -146,7 +157,7 @@
 
   .stockout-table th,
   .stockout-table td {
-    padding: 10px;
+    padding: 10px 8px;
     font-size: 14px;
   }
 }
