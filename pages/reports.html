@@ -18,6 +18,20 @@
   </head>
   <body>
     <!-- =========================
+            PRELOADER
+      ========================= -->
+
+    <div id="preloader">
+      <div class="loader-content">
+        <h1>📦 StockWise IMS</h1>
+
+        <div class="loader"></div>
+
+        <p>Loading...</p>
+      </div>
+    </div>
+    
+    <!-- =========================
         NAVIGATION BAR
 ========================= -->
     <header class="navbar">
@@ -69,7 +83,7 @@
     </header>
 
     <main>
-          <!-- =========================
+      <!-- =========================
                REPORTS HEADER
            ========================= -->
 
@@ -79,33 +93,33 @@
         <p>Analyze inventory performance and generate business insights.</p>
       </section>
 
-           <!-- =========================
+      <!-- =========================
                  REPORT STATS
            ========================= -->
 
       <section class="reports-stats container">
         <div class="stat-card">
-          <h2>250</h2>
+          <h2 class="counter" data-target="250">0</h2>
           <p>Total Products</p>
         </div>
 
         <div class="stat-card">
-          <h2>25</h2>
+          <h2 class="counter" data-target="25">0</h2>
           <p>Total Suppliers</p>
         </div>
 
         <div class="stat-card">
-          <h2>3,250</h2>
+          <h2 class="counter" data-target="3,250">0</h2>
           <p>Stock In</p>
         </div>
 
         <div class="stat-card">
-          <h2>2,100</h2>
+          <h2 class="counter" data-target="2,100">0</h2>
           <p>Stock Out</p>
         </div>
       </section>
 
-           <!-- =========================
+      <!-- =========================
                    REPORT FILTERS
             ========================= -->
 
@@ -126,7 +140,7 @@
         </div>
       </section>
 
-            <!-- =========================
+      <!-- =========================
                       REPORT TABLE
               ========================= -->
 
@@ -174,7 +188,7 @@
         </div>
       </section>
 
-            <!-- =========================
+      <!-- =========================
                        TOP PRODUCTS
             ========================= -->
 
@@ -182,15 +196,15 @@
         <h2 class="section-title">Top Moving Products</h2>
 
         <div class="product-ranking">
-          <div class="rank-card"> Rice - 320 Units</div>
+          <div class="rank-card">Rice - 320 Units</div>
 
-          <div class="rank-card"> Laptop - 60 Units</div>
+          <div class="rank-card">Laptop - 60 Units</div>
 
-          <div class="rank-card"> Printer - 20 Units</div>
+          <div class="rank-card">Printer - 20 Units</div>
         </div>
       </section>
 
-          <!-- =========================
+      <!-- =========================
                   EXPORT REPORTS
          ========================= -->
 
@@ -249,5 +263,12 @@
     </footer>
     <script src="../js/main.js"></script>
     <script src="../js/reports.js"></script>
+
+    <!-- =========================
+               BACK TO TOP BUTTON
+        ========================= -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>

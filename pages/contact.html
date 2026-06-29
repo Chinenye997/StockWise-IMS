@@ -17,6 +17,19 @@
   </head>
   <body>
     <!-- =========================
+            PRELOADER
+      ========================= -->
+
+    <div id="preloader">
+      <div class="loader-content">
+        <h1>📦 StockWise IMS</h1>
+
+        <div class="loader"></div>
+
+        <p>Loading...</p>
+      </div>
+    </div>
+    <!-- =========================
                   NAVIGATION BAR
           ========================= -->
     <header class="navbar">
@@ -123,7 +136,7 @@
      CONTACT & MAP
 ========================= -->
 
-      <section class="container contact-map-section">
+      <section class="container contact-map-section reveal">
         <!-- Contact Form -->
         <div class="contact-form-wrapper">
           <h2 class="section-title">Send Us a Message</h2>
@@ -226,7 +239,7 @@
     <footer class="footer">
       <div class="container footer-grid">
         <div>
-          <h3>📦 StockWise IMS</h3>
+          <h3>StockWise IMS</h3>
           <p>Smart Inventory Management System for modern businesses.</p>
         </div>
 
@@ -263,5 +276,13 @@
 
     <script src="../js/main.js"></script>
     <script src="../js/contact.js"></script>
+
+    <!-- =========================
+            BACK TO TOP BUTTON
+        ========================= -->
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>

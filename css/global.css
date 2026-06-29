@@ -15,6 +15,71 @@
   --border: #e5e7eb;
 }
 
+/* =========================
+   CARD HOVER
+========================= */
+
+.stat-card,
+.product-card,
+.category-card,
+.stock-card,
+.supplier-card,
+.contact-card,
+.rank-card {
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover,
+.product-card:hover,
+.category-card:hover,
+.stock-card:hover,
+.supplier-card:hover,
+.contact-card:hover,
+.rank-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   BUTTON HOVER
+========================= */
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================
+   TABLE ROW HOVER
+========================= */
+
+table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+table tbody tr:hover {
+  background-color: #f5f9ff;
+}
+
+/* =========================
+   IMAGE HOVER
+========================= */
+
+.product-card img,
+.category-card img,
+.supplier-card img {
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover img,
+.category-card:hover img,
+.supplier-card:hover img {
+  transform: scale(1.05);
+}
+
 /* Reset */
 * {
   margin: 0;
@@ -143,6 +208,129 @@ body {
 
 .btn-secondary:hover {
   background: #059669;
+}
+
+/* =========================
+   SCROLL ANIMATION
+========================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================
+   BACK TO TOP BUTTON
+========================= */
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+
+  width: 50px;
+  height: 50px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #2563eb;
+  color: #fff;
+
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.25);
+
+  transition: transform .3s ease, background .3s ease;
+
+  z-index: 9999;
+}
+
+.back-to-top:hover {
+  background: #1d4ed8;
+  transform: translateY(-5px);
+}
+
+.back-to-top.show {
+  display: flex;
+}
+
+/* =========================
+   PRELOADER
+========================= */
+
+#preloader {
+  position: fixed;
+  inset: 0;
+
+  background: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 99999;
+
+  transition: opacity .6s ease,
+              visibility .6s ease;
+}
+
+#preloader.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader-content {
+  text-align: center;
+}
+
+.loader-content h1 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.loader-content p {
+  margin-top: 20px;
+  color: #555;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+
+  border: 6px solid #ddd;
+  border-top: 6px solid #2563eb;
+
+  border-radius: 50%;
+
+  animation: spin 1s linear infinite;
+
+  margin: auto;
+}
+
+@keyframes spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
 }
 
 /* =========================

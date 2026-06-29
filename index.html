@@ -16,6 +16,19 @@
     />
   </head>
   <body>
+      <!-- =========================
+            PRELOADER
+      ========================= -->
+
+    <div id="preloader">
+      <div class="loader-content">
+        <h1>📦 StockWise IMS</h1>
+
+        <div class="loader"></div>
+
+        <p>Loading...</p>
+      </div>
+    </div>
     <!-- =========================
         NAVIGATION BAR
 ========================= -->
@@ -23,7 +36,7 @@
       <div class="container nav-container">
         <!-- Logo -->
         <div class="logo">
-          <h2>📦 StockWise IMS</h2>
+          <h2>StockWise-IMS</h2>
         </div>
 
         <div class="menu-toggle">
@@ -71,7 +84,7 @@
       <!-- =========================
                 HERO SECTION
              ========================= -->
-      <section class="hero">
+      <section class="hero reveal">
         <!-- Slide 1 -->
         <div class="slide active">
           <img src="images/hero/stockhero1.jpg" alt="Warehouse Inventory" />
@@ -125,9 +138,9 @@
         </div>
       </section>
 
-      <!-- =========================
+      <!-- =======================
             STATISTICS SECTION
-          ========================= -->
+          ======================== -->
       <section class="container stats">
         <div class="stat-card">
           <h2 class="counter" data-target="250">0</h2>
@@ -280,5 +293,12 @@
     </footer>
     <script src="js/main.js"></script>
     <script src="js/dashboard.js"></script>
+
+    <!-- =========================
+               BACK TO TOP BUTTON
+        ========================= -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>

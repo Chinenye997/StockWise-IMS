@@ -19,6 +19,20 @@
 
   <body>
     <!-- =========================
+            PRELOADER
+      ========================= -->
+
+    <div id="preloader">
+      <div class="loader-content">
+        <h1>📦 StockWise IMS</h1>
+
+        <div class="loader"></div>
+
+        <p>Loading...</p>
+      </div>
+    </div>
+
+    <!-- =========================
         NAVIGATION BAR
 ========================= -->
     <header class="navbar">
@@ -86,22 +100,22 @@
 
       <section class="suppliers-stats container">
         <div class="stat-card">
-          <h2>25</h2>
+          <h2 class="counter" data-target="25">0</h2>
           <p>Total Suppliers</p>
         </div>
 
         <div class="stat-card">
-          <h2>18</h2>
+          <h2 class="counter" data-target="18">0</h2>
           <p>Active Suppliers</p>
         </div>
 
         <div class="stat-card">
-          <h2>5</h2>
+          <h2 class="counter" data-target="5">0</h2>
           <p>New This Month</p>
         </div>
 
         <div class="stat-card">
-          <h2>98%</h2>
+          <h2><span class="counter" data-target="98">0</span>%</h2>
           <p>Delivery Success</p>
         </div>
       </section>
@@ -185,11 +199,11 @@
         </div>
       </section>
 
-            <!-- =========================
+      <!-- =========================
                    FEATURED SUPPLIERS
              ========================= -->
 
-      <section class="container supplier-cards-section">
+      <section class="container supplier-cards-section reveal">
         <h2 class="section-title">Featured Suppliers</h2>
 
         <div class="supplier-cards">
@@ -280,5 +294,12 @@
     </footer>
     <script src="../js/main.js"></script>
     <script src="../js/suppliers.js"></script>
+
+    <!-- =========================
+               BACK TO TOP BUTTON
+        ========================= -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>

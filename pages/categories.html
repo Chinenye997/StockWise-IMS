@@ -19,6 +19,19 @@
 
   <body>
     <!-- =========================
+            PRELOADER
+      ========================= -->
+
+    <div id="preloader">
+      <div class="loader-content">
+        <h1>📦 StockWise IMS</h1>
+
+        <div class="loader"></div>
+
+        <p>Loading...</p>
+      </div>
+    </div>
+    <!-- =========================
         NAVIGATION BAR
 ========================= -->
     <header class="navbar">
@@ -70,7 +83,7 @@
     </header>
 
     <main>
-           <!-- =========================
+      <!-- =========================
                  CATEGORIES HERO
           ========================= -->
       <section class="categories-hero">
@@ -83,32 +96,32 @@
         </div>
       </section>
 
-           <!-- =========================
+      <!-- =========================
                 CATEGORY STATISTICS
            ========================= -->
       <section class="category-stats container">
         <div class="category-stat-card">
-          <h2>12</h2>
+          <h2 class="counter" data-target="12">0</h2>
           <p>Total Categories</p>
         </div>
 
         <div class="category-stat-card">
-          <h2>250</h2>
+          <h2 class="counter" data-target="250">0</h2>
           <p>Total Products</p>
         </div>
 
         <div class="category-stat-card">
-          <h2>5</h2>
+          <h2 class="counter" data-target="5">0</h2>
           <p>Top Categories</p>
         </div>
 
         <div class="category-stat-card">
-          <h2>98%</h2>
+          <h2><span class="counter" data-target="98">0</span>%</h2>
           <p>Organized Inventory</p>
         </div>
       </section>
 
-         <!-- =========================
+      <!-- =========================
               SEARCH & ACTION BAR
           ========================= -->
       <section class="container category-actions">
@@ -123,7 +136,7 @@
         </div>
       </section>
 
-           <!-- =========================
+      <!-- =========================
                  CATEGORIES TABLE
            ========================= -->
       <section class="container category-table-section">
@@ -197,7 +210,7 @@
         </div>
       </section>
 
-             <!-- =========================
+      <!-- =========================
                     CATEGORY CARDS
                ========================= -->
       <section class="container category-cards-section">
@@ -230,7 +243,7 @@
         </div>
       </section>
 
-          <!-- =========================
+      <!-- =========================
                ADD CATEGORY MODAL
            ========================= -->
 
@@ -293,5 +306,13 @@
     </footer>
     <script src="../js/main.js"></script>
     <script src="../js/categories.js"></script>
+
+    <!-- =========================
+            BACK TO TOP BUTTON
+         ========================= -->
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>

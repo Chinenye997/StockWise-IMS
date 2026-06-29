@@ -18,7 +18,20 @@
   </head>
 
   <body>
-      <!-- =========================
+    <!-- =========================
+            PRELOADER
+      ========================= -->
+
+    <div id="preloader">
+      <div class="loader-content">
+        <h1>📦 StockWise IMS</h1>
+
+        <div class="loader"></div>
+
+        <p>Loading...</p>
+      </div>
+    </div>
+    <!-- =========================
         NAVIGATION BAR
       ========================= -->
     <header class="navbar">
@@ -82,32 +95,32 @@
         </div>
       </section>
 
-         <!-- =========================
+      <!-- =========================
                     PRODUCT STATISTICS
               ========================= -->
-      <section class="product-stats container">
+      <section class="product-stats container reveal">
         <div class="product-stat-card">
-          <h2>250</h2>
+          <h2 class="counter" data-target="250">0</h2>
           <p>Total Products</p>
         </div>
 
         <div class="product-stat-card">
-          <h2>180</h2>
+          <h2 class="counter" data-target="180">0</h2>
           <p>In Stock</p>
         </div>
 
         <div class="product-stat-card">
-          <h2>25</h2>
+          <h2 class="counter" data-target="25">0</h2>
           <p>Low Stock</p>
         </div>
 
         <div class="product-stat-card">
-          <h2>45</h2>
+          <h2 class="counter" data-target="45">0</h2>
           <p>Out of Stock</p>
         </div>
       </section>
 
-           <!-- =========================
+      <!-- =========================
                    SEARCH & ACTION BAR
              ========================= -->
       <section class="container product-actions">
@@ -128,7 +141,7 @@
         </div>
       </section>
 
-          <!-- =========================
+      <!-- =========================
                PRODUCTS TABLE
            ========================= -->
       <section class="container product-table-section">
@@ -157,8 +170,12 @@
                 <td>₦500,000</td>
                 <td><span class="status in-stock">In Stock</span></td>
                 <td>
-                  <button class="edit-btn"><i class="fa-solid fa-pencil"></i></button>
-                  <button class="delete-btn"><i class="fa-solid fa-trash-can"></i></button>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
                 </td>
               </tr>
 
@@ -170,8 +187,12 @@
                 <td>₦150,000</td>
                 <td><span class="status low-stock">Low Stock</span></td>
                 <td>
-                  <button class="edit-btn"><i class="fa-solid fa-pencil"></i></button>
-                  <button class="delete-btn"><i class="fa-solid fa-trash-can"></i></button>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
                 </td>
               </tr>
 
@@ -183,8 +204,12 @@
                 <td>₦30,000</td>
                 <td><span class="status in-stock">In Stock</span></td>
                 <td>
-                  <button class="edit-btn"><i class="fa-solid fa-pencil"></i></button>
-                  <button class="delete-btn"><i class="fa-solid fa-trash-can"></i></button>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
                 </td>
               </tr>
             </tbody>
@@ -253,7 +278,7 @@
       </div>
     </main>
 
-     <!-- =========================
+    <!-- =========================
                   FOOTER
         ========================= -->
     <footer class="footer">
@@ -295,5 +320,12 @@
     </footer>
     <script src="../js/main.js"></script>
     <script src="../js/products.js"></script>
+
+    <!-- =========================
+               BACK TO TOP BUTTON
+        ========================= -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>
