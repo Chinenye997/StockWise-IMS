@@ -16,6 +16,21 @@
 }
 
 /* =========================
+   ACTIVE NAVIGATION
+========================= */
+
+.nav-links a.active {
+  background: #2563eb;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 14px;
+}
+
+.nav-links a {
+  transition: all 0.3s ease;
+}
+
+/* =========================
    CARD HOVER
 ========================= */
 
@@ -189,7 +204,8 @@ body {
   border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -197,13 +213,20 @@ body {
   color: var(--white);
 }
 
-.btn-primary:hover {
-  background: #1d4ed8;
-}
-
 .btn-secondary {
   background: var(--secondary);
   color: var(--white);
+}
+
+/* Hover Effect */
+
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
 }
 
 .btn-secondary:hover {
@@ -233,29 +256,19 @@ body {
   position: fixed;
   bottom: 25px;
   right: 25px;
-
   width: 50px;
   height: 50px;
-
   border: none;
   border-radius: 50%;
-
   background: #2563eb;
   color: #fff;
-
   display: none;
-
   justify-content: center;
   align-items: center;
-
   cursor: pointer;
-
   font-size: 18px;
-
   box-shadow: 0 5px 15px rgba(0,0,0,.25);
-
   transition: transform .3s ease, background .3s ease;
-
   z-index: 9999;
 }
 
@@ -313,11 +326,8 @@ body {
 
   border: 6px solid #ddd;
   border-top: 6px solid #2563eb;
-
   border-radius: 50%;
-
   animation: spin 1s linear infinite;
-
   margin: auto;
 }
 
