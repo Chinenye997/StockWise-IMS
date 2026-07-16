@@ -191,4 +191,3 @@ Full-Stack Web Developer
 ## 📜 License
 
 This project was developed for educational purposes as part of a Front-End Web Development assignment.
-

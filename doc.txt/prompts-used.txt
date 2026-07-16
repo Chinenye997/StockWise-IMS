@@ -433,7 +433,6 @@ Ensure compatibility across desktop, tablet and mobile devices.
 Preserve readability on all screen sizes.
 
 
-
 7.0 Suppliers Page
 7.1 Suppliers Page Layout Prompt
 Prompt:

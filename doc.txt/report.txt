@@ -44,7 +44,6 @@ Some forms retained previously entered information after submission, requiring a
 
 
 
-
 2.8 Responsive Tables
 Displaying inventory tables on mobile devices presented challenges because large tables exceeded the screen width.
 2.9 Logo Design
