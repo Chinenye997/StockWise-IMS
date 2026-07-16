@@ -1,4 +1,4 @@
-# 📦 StockWise IMS
+# ![alt text](logo.png) StockWise IMS
 
 > A Responsive Inventory Management System Website built using HTML5, CSS3 and JavaScript.
 
