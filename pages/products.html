@@ -24,7 +24,9 @@
 
     <div id="preloader">
       <div class="loader-content">
-        <h1>📦 StockWise IMS</h1>
+        <a href="../index.html" class="logo">
+          <img src="../images/logo/logo.png" alt="StockWise IMS Logo" />
+        </a>
 
         <div class="loader"></div>
 
@@ -38,7 +40,9 @@
       <div class="container nav-container">
         <!-- Logo -->
         <div class="logo">
-          <h2>📦 StockWise IMS</h2>
+          <a href="../index.html" class="logo">
+            <img src="../images/logo/logo.png" alt="StockWise IMS Logo" />
+          </a>
         </div>
 
         <div class="menu-toggle">
@@ -95,7 +99,7 @@
         </div>
       </section>
 
-         <!-- =========================
+      <!-- =========================
               PRODUCT STATISTICS
           ========================= -->
       <section class="product-stats container reveal">
@@ -212,6 +216,23 @@
                   </button>
                 </td>
               </tr>
+
+              <tr>
+                <td>004</td>
+                <td>Rice</td>
+                <td>Food & Beverages</td>
+                <td>100</td>
+                <td>₦3,000</td>
+                <td><span class="status in-stock">In Stock</span></td>
+                <td>
+                  <button class="edit-btn">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="delete-btn">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -254,7 +275,7 @@
         <div class="modal-content">
           <h2>Add New Product</h2>
 
-          <form>
+          <form id="productForm">
             <input type="text" placeholder="Product Name" required />
 
             <input type="text" placeholder="Category" required />
@@ -284,7 +305,11 @@
     <footer class="footer">
       <div class="container footer-grid">
         <div>
-          <h3>📦 StockWise IMS</h3>
+          <img
+            src="../images/logo/logo2.png"
+            alt="StockWise IMS Logo"
+            class="footer-logo"
+          />
           <p>Smart Inventory Management System for modern businesses.</p>
         </div>
 
@@ -327,5 +352,13 @@
     <button id="backToTop" class="back-to-top" aria-label="Back to top">
       <i class="fa-solid fa-arrow-up"></i>
     </button>
+    <!-- =========================
+          TOAST NOTIFICATION
+       ========================= -->
+
+    <div id="toast" class="toast">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toastMessage"></span>
+    </div>
   </body>
 </html>

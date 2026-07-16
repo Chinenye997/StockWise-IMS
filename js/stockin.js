@@ -40,3 +40,23 @@ stockSearch.addEventListener("keyup", function () {
   });
 
 });
+
+/* =========================
+   STOCK IN FORM SUBMIT
+========================= */
+
+const stockInForm = document.getElementById("stockInForm");
+
+if (stockInForm) {
+
+  stockInForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    showToast("✓ Stock Added Successfully");
+
+    this.reset();
+
+  });
+
+}

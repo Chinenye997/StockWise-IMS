@@ -10,9 +10,11 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector(".nav-menu");
 
-menuToggle.addEventListener("click", () => {
+if (menuToggle && navMenu) {
+  menuToggle.addEventListener("click", () => {
     navMenu.classList.toggle("active");
-});
+  });
+}
 
 // Dropdown Toggle (for mobile)
 document.addEventListener("click", function(e) {
@@ -138,3 +140,24 @@ window.addEventListener("load", () => {
   }, 2000);
 
 });
+
+/* =========================
+   TOAST NOTIFICATION
+========================= */
+
+function showToast(message) {
+
+  const toast = document.getElementById("toast");
+  const toastMessage = document.getElementById("toastMessage");
+
+  if (!toast || !toastMessage) return;
+
+  toastMessage.textContent = message;
+
+  toast.classList.add("show");
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 3000);
+
+}

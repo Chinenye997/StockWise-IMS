@@ -135,9 +135,24 @@ body {
   align-items: center;
 }
 
-.logo h2 {
-  font-family: "Poppins", sans-serif;
-  color: var(--primary);
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 55px;
+  width: auto;
+  display: block;
+}
+
+.navbar {
+  min-height: 80px;
 }
 
 .nav-links {
@@ -381,6 +396,51 @@ body {
   padding-top: 20px;
 }
 
+.footer-logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   TOAST NOTIFICATION
+========================= */
+
+.toast {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: #16a34a;
+  color: #fff;
+
+  padding: 15px 20px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+
+  font-size: 15px;
+  font-weight: 500;
+
+  transform: translateX(120%);
+  transition: transform .4s ease;
+
+  z-index: 99999;
+}
+
+.toast.show {
+  transform: translateX(0);
+}
+
+.toast i {
+  font-size: 18px;
+}
+
 
 @media (max-width: 576px) {
   .footer-grid {
@@ -391,6 +451,11 @@ body {
 
 /* Mobile Navbar */
 @media (max-width: 768px) {
+
+   .logo img {
+    height: 45px;
+  }
+  
   .menu-toggle {
     display: block;
   }
@@ -431,4 +496,17 @@ body {
   .footer-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
+   .toast{
+    top:20px;
+    left:20px;
+    right:20px;
+
+    transform: translateY(-150%);
+  }
+
+  .toast.show{
+    transform: translateY(0);
+  }
+
 }

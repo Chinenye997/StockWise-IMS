@@ -41,3 +41,24 @@ stockOutSearch.addEventListener("keyup", function () {
   });
 
 });
+
+
+/* =========================
+   STOCK OUT FORM SUBMIT
+========================= */
+
+const stockOutForm = document.getElementById("stockOutForm");
+
+if (stockOutForm) {
+
+  stockOutForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    showToast("✓ Stock Removed Successfully");
+
+    this.reset();
+
+  });
+
+}

@@ -40,7 +40,6 @@ filter.addEventListener("change", function () {
   });
 });
 
-
 /* =========================
    PRODUCT MODAL
 ========================= */
@@ -65,3 +64,24 @@ window.addEventListener("click", (e) => {
     modal.style.display = "none";
   }
 });
+
+/* =========================
+   PRODUCT FORM SUBMIT
+========================= */
+
+const productForm = document.getElementById("productForm");
+
+if (productForm) {
+  productForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    showToast("✓ Product Added Successfully");
+
+    if (modal) {
+      modal.style.display = "none";
+    }
+
+    this.reset();
+  });
+}
+

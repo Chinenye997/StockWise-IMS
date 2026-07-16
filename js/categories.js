@@ -24,3 +24,32 @@ window.addEventListener("click", (e) => {
     categoryModal.style.display = "none";
   }
 });
+
+
+/* =========================
+   CATEGORY FORM SUBMIT
+========================= */
+
+const categoryForm = document.getElementById("categoryForm");
+
+if (categoryForm) {
+
+  categoryForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    showToast("✓ Category Added Successfully");
+
+    // Close the modal
+    const modal = document.getElementById("categoryModal");
+
+    if (modal) {
+      modal.style.display = "none";
+    }
+
+    // Reset the form
+    this.reset();
+
+  });
+
+}

@@ -22,7 +22,9 @@
 
     <div id="preloader">
       <div class="loader-content">
-        <h1>📦 StockWise IMS</h1>
+        <a href="../index.html" class="logo">
+          <img src="../images/logo/logo.png" alt="StockWise IMS Logo" />
+        </a>
 
         <div class="loader"></div>
 
@@ -36,7 +38,9 @@
       <div class="container nav-container">
         <!-- Logo -->
         <div class="logo">
-          <h2>📦 StockWise IMS</h2>
+          <a href="../index.html" class="logo">
+            <img src="../images/logo/logo.png" alt="StockWise IMS Logo" />
+          </a>
         </div>
 
         <div class="menu-toggle">
@@ -129,19 +133,19 @@
       </section>
 
       <!-- =========================
-     CONTACT CONTENT
-========================= -->
+            CONTACT CONTENT
+      ========================= -->
 
       <!-- =========================
-     CONTACT & MAP
-========================= -->
+              CONTACT & MAP
+       ========================= -->
 
       <section class="container contact-map-section reveal">
         <!-- Contact Form -->
         <div class="contact-form-wrapper">
           <h2 class="section-title">Send Us a Message</h2>
 
-          <form class="contact-form">
+          <form id="contactForm" class="contact-form">
             <input type="text" placeholder="Full Name" required />
 
             <input type="email" placeholder="Email Address" required />
@@ -239,7 +243,11 @@
     <footer class="footer">
       <div class="container footer-grid">
         <div>
-          <h3>StockWise IMS</h3>
+          <img
+            src="../images/logo/logo2.png"
+            alt="StockWise IMS Logo"
+            class="footer-logo"
+          />
           <p>Smart Inventory Management System for modern businesses.</p>
         </div>
 
@@ -284,5 +292,14 @@
     <button id="backToTop" class="back-to-top" aria-label="Back to top">
       <i class="fa-solid fa-arrow-up"></i>
     </button>
+
+    <!-- =========================
+            TOAST NOTIFICATION
+       ========================= -->
+
+    <div id="toast" class="toast">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toastMessage"></span>
+    </div>
   </body>
 </html>

@@ -23,7 +23,9 @@
 
     <div id="preloader">
       <div class="loader-content">
-        <h1>📦 StockWise IMS</h1>
+        <a href="../index.html" class="logo">
+          <img src="../images/logo/logo.png" alt="StockWise IMS Logo" />
+        </a>
 
         <div class="loader"></div>
 
@@ -31,14 +33,16 @@
       </div>
     </div>
 
-    <!-- =========================
-        NAVIGATION BAR
-========================= -->
+      <!-- =========================
+                 NAVIGATION BAR
+       ========================= -->
     <header class="navbar">
       <div class="container nav-container">
         <!-- Logo -->
         <div class="logo">
-          <h2>📦 StockWise IMS</h2>
+          <a href="../index.html" class="logo">
+            <img src="../images/logo/logo.png" alt="StockWise IMS Logo" />
+          </a>
         </div>
 
         <div class="menu-toggle">
@@ -227,7 +231,11 @@
     <footer class="footer">
       <div class="container footer-grid">
         <div>
-          <h3>📦 StockWise IMS</h3>
+          <img
+            src="../images/logo/logo2.png"
+            alt="StockWise IMS Logo"
+            class="footer-logo"
+          />
           <p>Smart Inventory Management System for modern businesses.</p>
         </div>
 
@@ -270,5 +278,14 @@
     <button id="backToTop" class="back-to-top" aria-label="Back to top">
       <i class="fa-solid fa-arrow-up"></i>
     </button>
+
+    <!-- =========================
+           TOAST NOTIFICATION
+      ========================= -->
+
+    <div id="toast" class="toast">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toastMessage"></span>
+    </div>
   </body>
 </html>

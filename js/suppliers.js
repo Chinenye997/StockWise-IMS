@@ -2,14 +2,11 @@
    SUPPLIER MODAL
 ========================= */
 
-const supplierModal =
-  document.getElementById("supplierModal");
+const supplierModal = document.getElementById("supplierModal");
 
-const openSupplierModal =
-  document.getElementById("openSupplierModal");
+const openSupplierModal = document.getElementById("openSupplierModal");
 
-const closeSupplierModal =
-  document.getElementById("closeSupplierModal");
+const closeSupplierModal = document.getElementById("closeSupplierModal");
 
 openSupplierModal.addEventListener("click", () => {
   supplierModal.style.display = "flex";
@@ -29,31 +26,38 @@ window.addEventListener("click", (e) => {
    SEARCH SUPPLIERS
 ========================= */
 
-const supplierSearch =
-  document.getElementById("supplierSearch");
+const supplierSearch = document.getElementById("supplierSearch");
 
-const supplierRows =
-  document.querySelectorAll(
-    ".suppliers-table tbody tr"
-  );
+const supplierRows = document.querySelectorAll(".suppliers-table tbody tr");
 
 supplierSearch.addEventListener("keyup", function () {
+  const value = this.value.toLowerCase();
 
-  const value =
-    this.value.toLowerCase();
+  supplierRows.forEach((row) => {
+    const supplier = row.children[1].textContent.toLowerCase();
 
-  supplierRows.forEach(row => {
-
-    const supplier =
-      row.children[1]
-      .textContent
-      .toLowerCase();
-
-    row.style.display =
-      supplier.includes(value)
-      ? ""
-      : "none";
-
+    row.style.display = supplier.includes(value) ? "" : "none";
   });
-
 });
+
+/* =========================
+   SUPPLIER FORM SUBMIT
+========================= */
+
+const supplierForm = document.getElementById("supplierForm");
+
+if (supplierForm) {
+  supplierForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    showToast("✓ Supplier Added Successfully");
+
+    // Close the modal
+    const modal = document.getElementById("supplierModal");
+
+    if (modal) {
+      modal.style.display = "none";
+    }
+    this.reset();
+  });
+}

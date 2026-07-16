@@ -16,13 +16,15 @@
     />
   </head>
   <body>
-      <!-- =========================
+    <!-- =========================
             PRELOADER
       ========================= -->
 
     <div id="preloader">
       <div class="loader-content">
-        <h1>📦 StockWise IMS</h1>
+        <a href="index.html" class="logo">
+          <img src="./images/logo/logo.png" alt="StockWise IMS Logo" />
+        </a>
 
         <div class="loader"></div>
 
@@ -35,9 +37,9 @@
     <header class="navbar">
       <div class="container nav-container">
         <!-- Logo -->
-        <div class="logo">
-          <h2>StockWise-IMS</h2>
-        </div>
+        <a href="index.html" class="logo">
+          <img src="./images/logo/logo.png" alt="StockWise IMS Logo" />
+        </a>
 
         <div class="menu-toggle">
           <i class="fa-solid fa-bars"></i>
@@ -171,22 +173,22 @@
 
         <div class="feature-grid">
           <div class="feature-card">
-            <h3>📦 Inventory Tracking</h3>
+            <h3>✔ Inventory Tracking</h3>
             <p>Monitor all product stock levels in real time.</p>
           </div>
 
           <div class="feature-card">
-            <h3>🚚 Supplier Management</h3>
+            <h3>✔ Supplier Management</h3>
             <p>Manage and organize all your suppliers easily.</p>
           </div>
 
           <div class="feature-card">
-            <h3>📊 Stock Reports</h3>
+            <h3>✔ Stock Reports</h3>
             <p>Generate detailed inventory performance reports.</p>
           </div>
 
           <div class="feature-card">
-            <h3><i class="fa-solid fa-bolt"></i> Fast Processing</h3>
+            <h3>✔ Fast Processing</h3>
             <p>Quick stock updates with smooth system performance.</p>
           </div>
         </div>
@@ -200,12 +202,12 @@
 
         <div class="activity-list">
           <div class="activity-item">
-            <span>📦</span>
+            <span>✔</span>
             <p>20 laptops added to inventory</p>
           </div>
 
           <div class="activity-item">
-            <span>⚠️</span>
+            <span>✔</span>
             <p>5 items marked as low stock</p>
           </div>
 
@@ -215,7 +217,7 @@
           </div>
 
           <div class="activity-item">
-            <span>📊</span>
+            <span>✔</span>
             <p>Monthly inventory report generated</p>
           </div>
         </div>
@@ -257,7 +259,11 @@
     <footer class="footer">
       <div class="container footer-grid">
         <div>
-          <h3>📦 StockWise IMS</h3>
+          <img
+            src="./images/logo/logo2.png"
+            alt="StockWise IMS Logo"
+            class="footer-logo"
+          />
           <p>Smart Inventory Management System for modern businesses.</p>
         </div>
 
@@ -300,5 +306,13 @@
     <button id="backToTop" class="back-to-top" aria-label="Back to top">
       <i class="fa-solid fa-arrow-up"></i>
     </button>
+    <!-- =========================
+          TOAST NOTIFICATION
+        ========================= -->
+
+    <div id="toast" class="toast">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toastMessage"></span>
+    </div>
   </body>
 </html>
