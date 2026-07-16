@@ -1,0 +1,799 @@
+1.0 Prompts Used
+1.1 Project Planning Prompt
+Prompt:
+Build a professional and responsive multi-page Inventory Management System website called StockWise IMS using HTML, CSS and JavaScript.
+Requirements:
+Give the website the name StockWise IMS.
+Design a professional logo suitable for both the navigation bar and footer.
+Create multiple pages including Dashboard, Products, Categories, Suppliers, Stock In, Stock Out, Reports and Contact.
+Use a modern blue colour scheme suitable for an Inventory Management System.
+Create a responsive layout for desktop, tablet and mobile devices.
+Use HTML, CSS and JavaScript only.
+Include comments throughout the code.
+Create reusable global styles for consistency across all pages.
+Ensure the website demonstrates prompt engineering by building the project section by section instead of using a single prompt.
+
+
+2.0 Dashboard (Home Page)
+2.1 Logo Design Prompt
+Prompt:
+Design a professional logo for an Inventory Management System called StockWise IMS.
+Requirements:
+Display the text StockWise IMS.
+Use a modern inventory management icon.
+Use a blue, white and dark navy colour combination.
+Design a clean and professional logo suitable for business software.
+Create a transparent background.
+Create one version suitable for the navigation bar.
+Create another version suitable for the footer.
+Ensure the logo is clear on both light and dark backgrounds.
+2.2 Navigation Bar Prompt
+Prompt:
+Create a professional and responsive navigation bar for StockWise IMS.
+Requirements:
+Place the StockWise IMS logo on the top left corner.
+Add menu links:
+Dashboard
+Products
+Categories
+Suppliers
+Stock
+Reports
+Contact
+Add dropdown menus where necessary.
+Highlight the active page.
+Make the navigation bar sticky.
+Add a responsive hamburger menu for mobile devices.
+Ensure responsiveness across desktop, tablet and mobile devices.
+Use HTML, CSS and JavaScript with comments.
+2.3 Hero Section Prompt
+Prompt:
+Create a modern hero section for the StockWise IMS Dashboard.
+Requirements:
+Display a full-width background image slider.
+Add a dark overlay to improve text readability.
+Display a bold heading introducing StockWise IMS.
+Include a short description explaining the purpose of the system.
+Add Call-To-Action buttons such as View Products and View Reports.
+Animate the hero content when the page loads.
+Ensure the hero section is fully responsive across all screen sizes.
+
+2.4 Statistics Cards Prompt
+Prompt:
+Create a statistics section for the StockWise IMS Dashboard.
+Requirements:
+Display Total Products.
+Display Total Categories.
+Display Total Suppliers.
+Display Available Stock.
+Use modern statistic cards.
+Add animated number counters.
+Include hover effects.
+Ensure responsiveness on desktop, tablet and mobile devices.
+2.5 Features Section Prompt
+Prompt:
+Create a Features section highlighting the main capabilities of StockWise IMS.
+Requirements:
+Display Product Management.
+Display Category Management.
+Display Supplier Management.
+Display Inventory Tracking.
+Use responsive feature cards.
+Add hover animations.
+Use modern UI/UX principles.
+Ensure responsiveness across all devices.
+2.6 Recent Activities Section Prompt
+Prompt:
+Create a Recent Activities section for the StockWise IMS Dashboard.
+Requirements:
+Display recent inventory activities.
+Include stock added records.
+Include stock removed records.
+Include newly added suppliers.
+Include newly added products.
+Use icons beside each activity.
+Display activities inside modern cards.
+Add subtle hover animations.
+Ensure responsiveness.
+2.7 Why Choose StockWise Section Prompt
+Prompt:
+Create a "Why Choose StockWise IMS" section.
+Requirements:
+Display Secure Inventory Management.
+Display Fast Stock Tracking.
+Display Easy Product Management.
+Display Real-Time Inventory Monitoring.
+Use modern information cards.
+Add hover effects.
+Use the website colour scheme.
+Ensure responsiveness across all devices.
+2.8 Footer Section Prompt
+Prompt:
+Create a professional footer for StockWise IMS.
+Requirements:
+Display the StockWise IMS footer logo.
+Include a short company description.
+Display Quick Links.
+Display Inventory Links.
+Display Contact Information.
+Include social media icons.
+Display copyright information.
+Use a dark background.
+Ensure responsiveness on desktop, tablet and mobile devices.
+2.9 Back-To-Top Component Prompt
+Prompt:
+Create a Back-To-Top button for StockWise IMS.
+Requirements:
+Display the button after the user scrolls down the page.
+Scroll smoothly back to the top when clicked.
+Position the button at the bottom-right corner of the screen.
+Add hover animations.
+Ensure responsiveness across all devices.
+2.10 Counter Animation Prompt
+Prompt:
+Create animated number counters for the Dashboard statistics.
+Requirements:
+Animate the numbers from zero to their target values.
+Start the animation when the statistics section becomes visible.
+Make the animation smooth.
+Prevent the animation from repeating after completion.
+Ensure compatibility across all devices.
+2.11 Scroll Reveal Animation Prompt
+Prompt:
+Create a Scroll Reveal animation for the Dashboard sections.
+Requirements:
+Reveal each section when it enters the viewport.
+Use smooth fade and slide animations.
+Apply the animation to cards and content sections.
+Prevent repeated animations after the first reveal.
+Ensure responsiveness.
+2.12 Responsive Design Prompt
+Prompt:
+Make the entire StockWise IMS Dashboard fully responsive.
+Requirements:
+Desktop Layout.
+Tablet Layout.
+Mobile Layout.
+Responsive Navigation Bar.
+Responsive Hero Section.
+Responsive Statistics Cards.
+Responsive Features Section.
+Responsive Recent Activities Section.
+Responsive Why Choose StockWise Section.
+Responsive Footer.
+Responsive Back-To-Top Button.
+Responsive Hamburger Menu.
+
+3.0 Products Page
+3.1 Products Page Layout Prompt
+Prompt:
+Create a professional Products page for StockWise IMS.
+Requirements:
+Create a page title and short description.
+Display an Add Product button.
+Display a search bar.
+Display a category filter.
+Display products in a responsive table.
+Include Product Name, Category, Quantity, Price and Status columns.
+Include Action buttons for Edit and Delete.
+Use HTML, CSS and JavaScript with comments.
+Ensure responsiveness across desktop, tablet and mobile devices.
+3.2 Search Function Prompt
+Prompt:
+Create a live search functionality for the Products page.
+Requirements:
+Search products by product name.
+Filter the table as the user types.
+Hide products that do not match the search.
+Display matching products immediately.
+Use JavaScript only.
+Ensure smooth performance.
+3.3 Category Filter Prompt
+Prompt:
+Create a category filter for the Products page.
+Requirements:
+Display a category dropdown list.
+Filter products based on the selected category.
+Include an All Categories option.
+Update the table automatically when a category is selected.
+Use JavaScript for filtering.
+Ensure responsiveness.
+3.4 Product Table Prompt
+Prompt:
+Create a responsive product table for StockWise IMS.
+Requirements:
+Display Product Name.
+Display Category.
+Display Quantity.
+Display Price.
+Display Product Status.
+Display Edit and Delete action buttons.
+Add hover effects to table rows.
+Make the table responsive on desktop, tablet and mobile devices.
+3.5 Add Product Modal Prompt
+Prompt:
+Create a modal window for adding new products.
+Requirements:
+Display the modal when the Add Product button is clicked.
+Include Product Name field.
+Include Category field.
+Include Quantity field.
+Include Price field.
+Include Product Status dropdown.
+Add a Save Product button.
+Close the modal when the Close button or outside area is clicked.
+Reset the form after successful submission.
+Use HTML, CSS and JavaScript.
+3.6 Product Toast Notification Prompt
+Prompt:
+Create a toast notification for the Products page.
+Requirements:
+Display ✓ Product Added Successfully after submitting the product form.
+Automatically hide the notification after a few seconds.
+Use smooth fade-in and fade-out animations.
+Position the notification at the top-right corner.
+Use JavaScript.
+Ensure responsiveness across all devices.
+3.7 Responsive Product Table Prompt
+Prompt:
+Make the Products page fully responsive.
+Requirements:
+Make the product table scroll horizontally on smaller screens.
+Make buttons responsive.
+Make the search bar responsive.
+Make the category filter responsive.
+Ensure the Add Product modal is responsive.
+Maintain proper spacing and alignment on desktop, tablet and mobile devices.
+Preserve readability on all screen sizes.
+Note: This completes the Products Page documentation. It covers all the major sections and functionality we implemented, including the search feature, category filtering, responsive table, modal, and toast notifications. 
+
+
+
+4.0 Categories Page
+4.1 Categories Page Layout Prompt
+Prompt:
+Create a professional Categories page for StockWise IMS.
+Requirements:
+Create a page title and short description.
+Display an Add Category button.
+Display a search bar.
+Display categories in a responsive table.
+Include Category Name, Description, Number of Products and Date Added columns.
+Include Action buttons for Edit and Delete.
+Use HTML, CSS and JavaScript with comments.
+Ensure responsiveness across desktop, tablet and mobile devices.
+4.2 Add Category Modal Prompt
+Prompt:
+Create a modal window for adding new categories.
+Requirements:
+Display the modal when the Add Category button is clicked.
+Include Category Name field.
+Include Category Description field.
+Add a Save Category button.
+Close the modal when the Close button or outside area is clicked.
+Reset the form after successful submission.
+Use HTML, CSS and JavaScript.
+Ensure responsiveness.
+4.3 Search Function Prompt
+Prompt:
+Create a live search functionality for the Categories page.
+Requirements:
+Search categories by category name.
+Filter the category table as the user types.
+Hide categories that do not match the search.
+Display matching categories immediately.
+Use JavaScript only.
+Ensure smooth performance.
+Maintain responsiveness across all devices.
+4.4 Category Toast Notification Prompt
+Prompt:
+Create a toast notification for the Categories page.
+Requirements:
+Display ✓ Category Added Successfully after submitting the category form.
+Automatically close the category modal after successful submission.
+Reset the form after submission.
+Automatically hide the notification after a few seconds.
+Use smooth fade-in and fade-out animations.
+Position the notification at the top-right corner.
+Use JavaScript.
+Ensure responsiveness.
+4.5 Responsive Categories Table Prompt
+Prompt:
+Make the Categories page fully responsive.
+Requirements:
+Make the categories table scroll horizontally on smaller screens.
+Make the Add Category button responsive.
+Make the search bar responsive.
+Ensure the category modal is responsive.
+Make the Edit and Delete buttons responsive.
+Maintain proper spacing and alignment on desktop, tablet and mobile devices.
+Preserve readability on all screen sizes.
+
+
+
+5.0 Stock In Page
+5.1 Stock In Page Layout Prompt
+Prompt:
+Create a professional Stock In page for StockWise IMS.
+Requirements:
+Create a page title and short description.
+Display a Stock In form.
+Display a Recent Stock In Records table.
+Use a clean and modern layout.
+Use HTML, CSS and JavaScript with comments.
+Ensure responsiveness across desktop, tablet and mobile devices.
+5.2 Stock In Form Prompt
+Prompt:
+Create a Stock In form for StockWise IMS.
+Requirements:
+Include a Product dropdown list.
+Include Quantity input field.
+Include Date Received field.
+Include Supplier dropdown list.
+Include Notes textarea.
+Add a Save Stock In Record button.
+Validate all required fields.
+Reset the form after successful submission.
+Ensure responsiveness across all devices.
+5.3 Recent Stock In Records Table Prompt
+Prompt:
+Create a Recent Stock In Records table for StockWise IMS.
+Requirements:
+Display Product Name.
+Display Supplier.
+Display Quantity Received.
+Display Date Received.
+Display Remarks.
+Add responsive table styling.
+Include hover effects on table rows.
+Ensure readability on desktop, tablet and mobile devices.
+5.4 Stock In Toast Notification Prompt
+Prompt:
+Create a toast notification for the Stock In page.
+Requirements:
+Display ✓ Stock Updated Successfully after submitting the Stock In form.
+Automatically hide the notification after a few seconds.
+Use smooth fade-in and fade-out animations.
+Position the notification at the top-right corner.
+Reset the form after successful submission.
+Use JavaScript.
+Ensure responsiveness.
+5.5 Responsive Design Prompt
+Prompt:
+Make the entire Stock In page fully responsive.
+Requirements:
+Make the Stock In form responsive.
+Make the Recent Stock In table scroll horizontally on smaller screens.
+Make all input fields responsive.
+Make buttons responsive.
+Maintain proper spacing and alignment.
+Ensure compatibility across desktop, tablet and mobile devices.
+Preserve readability on all screen sizes.
+
+
+
+6.0 Stock Out Page
+6.1 Stock Out Page Layout Prompt
+Prompt:
+Create a professional Stock Out page for StockWise IMS.
+Requirements:
+Create a page title and short description.
+Display a Stock Out form.
+Display a Recent Stock Out Records table.
+Use a clean and modern layout.
+Use HTML, CSS and JavaScript with comments.
+Ensure responsiveness across desktop, tablet and mobile devices.
+6.2 Stock Out Form Prompt
+Prompt:
+Create a Stock Out form for StockWise IMS.
+Requirements:
+Include a Product dropdown list.
+Include Quantity input field.
+Include Date Issued field.
+Include Destination input field.
+Include Notes textarea.
+Add a Save Stock Out Record button.
+Validate all required fields.
+Reset the form after successful submission.
+Ensure responsiveness across all devices.
+6.3 Recent Stock Out Records Table Prompt
+Prompt:
+Create a Recent Stock Out Records table for StockWise IMS.
+Requirements:
+Display Product Name.
+Display Quantity Removed.
+Display Destination.
+Display Date Issued.
+Display Remarks.
+Add responsive table styling.
+Include hover effects on table rows.
+Ensure readability on desktop, tablet and mobile devices.
+6.4 Stock Out Toast Notification Prompt
+Prompt:
+Create a toast notification for the Stock Out page.
+Requirements:
+Display ✓ Stock Removed Successfully after submitting the Stock Out form.
+Automatically hide the notification after a few seconds.
+Use smooth fade-in and fade-out animations.
+Position the notification at the top-right corner.
+Reset the form after successful submission.
+Use JavaScript.
+Ensure responsiveness.
+6.5 Responsive Design Prompt
+Prompt:
+Make the entire Stock Out page fully responsive.
+Requirements:
+Make the Stock Out form responsive.
+Make the Recent Stock Out table scroll horizontally on smaller screens.
+Make all input fields responsive.
+Make buttons responsive.
+Ensure the destination field and notes section display properly on all screen sizes.
+Maintain proper spacing and alignment.
+Ensure compatibility across desktop, tablet and mobile devices.
+Preserve readability on all screen sizes.
+
+
+
+7.0 Suppliers Page
+7.1 Suppliers Page Layout Prompt
+Prompt:
+Create a professional Suppliers page for StockWise IMS.
+Requirements:
+Create a page title and short description.
+Display an Add Supplier button.
+Display a search bar.
+Display supplier information in a responsive table.
+Use a clean and modern layout.
+Use HTML, CSS and JavaScript with comments.
+Ensure responsiveness across desktop, tablet and mobile devices.
+7.2 Add Supplier Modal Prompt
+Prompt:
+Create a modal window for adding new suppliers.
+Requirements:
+Display the modal when the Add Supplier button is clicked.
+Include Supplier Name field.
+Include Company Name field.
+Include Email Address field.
+Include Phone Number field.
+Include Business Address field.
+Add a Save Supplier button.
+Close the modal when the Close button or outside area is clicked.
+Reset the form after successful submission.
+Use HTML, CSS and JavaScript.
+Ensure responsiveness.
+7.3 Supplier Table Prompt
+Prompt:
+Create a responsive supplier table for StockWise IMS.
+Requirements:
+Display Supplier Name.
+Display Company Name.
+Display Email Address.
+Display Contact Number.
+Display Address.
+Include Edit and Delete action buttons.
+Add hover effects to table rows.
+Ensure readability on desktop, tablet and mobile devices.
+7.4 Edit and Delete Buttons Prompt
+Prompt:
+Create professional Edit and Delete action buttons for the Suppliers page.
+Requirements:
+Use Font Awesome icons for both buttons.
+Display a pencil icon for the Edit button.
+Display a trash can icon for the Delete button.
+Apply different colours for Edit and Delete buttons.
+Add hover effects.
+Make the buttons responsive across all screen sizes.
+Use HTML and CSS.
+7.5 Responsive Supplier Table Prompt
+Prompt:
+Make the Suppliers table fully responsive.
+Requirements:
+Enable horizontal scrolling on smaller screens.
+Preserve table formatting.
+Prevent table content from breaking.
+Maintain proper spacing between columns.
+Ensure compatibility across desktop, tablet and mobile devices.
+7.6 Responsive Contact Number Prompt
+Prompt:
+Improve the responsiveness of the Contact Number column on the Suppliers page.
+Requirements:
+Prevent phone numbers from overflowing on smaller screens.
+Ensure phone numbers remain readable.
+Maintain proper spacing within the table.
+Preserve the responsive table layout.
+Ensure compatibility across desktop, tablet and mobile devices.
+7.7 Supplier Toast Notification Prompt
+Prompt:
+Create a toast notification for the Suppliers page.
+Requirements:
+Display ✓ Supplier Added Successfully after submitting the supplier form.
+Automatically hide the notification after a few seconds.
+Use smooth fade-in and fade-out animations.
+Position the notification at the top-right corner.
+Reset the form after successful submission.
+Use JavaScript.
+Ensure responsiveness across all devices.
+
+8.0 Reports Page
+8.1 Reports Page Layout Prompt
+Prompt:
+Create a professional Reports page for StockWise IMS.
+Requirements:
+Create a page title and short description.
+Display report summary cards.
+Display a sales and inventory reports table.
+Include export report buttons.
+Use a clean and modern dashboard layout.
+Use HTML, CSS and JavaScript with comments.
+Ensure responsiveness across desktop, tablet and mobile devices.
+
+
+
+8.2 Report Summary Cards Prompt
+Prompt:
+Create report summary cards for the StockWise IMS Reports page.
+Requirements:
+Display Total Products.
+Display Total Categories.
+Display Total Suppliers.
+Display Total Stock Available.
+Use modern dashboard cards.
+Add hover effects.
+Use icons where appropriate.
+Ensure responsiveness across all devices.
+8.3 Reports Table Prompt
+Prompt:
+Create a responsive reports table for StockWise IMS.
+Requirements:
+Display Report Name.
+Display Report Type.
+Display Date Generated.
+Display Report Status.
+Include an Action column.
+Add a View Report button.
+Add hover effects on table rows.
+Ensure readability on desktop, tablet and mobile devices.
+8.4 Export Report Button Prompt
+Prompt:
+Create Export Report buttons for the Reports page.
+Requirements:
+Add an Export to PDF button.
+Add an Export to Excel button.
+Add Font Awesome icons.
+Include hover effects.
+Style the buttons using the website colour scheme.
+Ensure responsiveness across desktop, tablet and mobile devices.
+8.5 Responsive Design Prompt
+Prompt:
+Make the entire Reports page fully responsive.
+Requirements:
+Make the report summary cards responsive.
+Make the reports table scroll horizontally on smaller screens.
+Make the export buttons responsive.
+Maintain proper spacing and alignment.
+Ensure compatibility across desktop, tablet and mobile devices.
+Preserve readability on all screen sizes.
+
+9.0 Contact Page
+9.1 Contact Page Layout Prompt
+Prompt:
+Create a professional Contact page for StockWise IMS.
+Requirements:
+Create a page title and short description.
+Display Contact Information cards.
+Display a Contact Form.
+Embed a Google Map.
+Display a Frequently Asked Questions (FAQ) section.
+Use a clean and modern layout.
+Use HTML, CSS and JavaScript with comments.
+Ensure responsiveness across desktop, tablet and mobile devices.
+9.2 Contact Information Cards Prompt
+Prompt:
+Create Contact Information cards for the StockWise IMS Contact page.
+Requirements:
+Display Office Address.
+Display Phone Number.
+Display Email Address.
+Display Business Hours.
+Use Font Awesome icons.
+Add hover effects.
+Display the information inside modern cards.
+Ensure responsiveness across all devices.
+9.3 Contact Form Prompt
+Prompt:
+Create a professional contact form for StockWise IMS.
+Requirements:
+Include Full Name field.
+Include Email Address field.
+Include Subject field.
+Include Message textarea.
+Add a Send Message button.
+Validate all required fields.
+Use a modern compact design.
+Ensure responsiveness across desktop, tablet and mobile devices.
+9.4 Google Maps Prompt
+Prompt:
+Embed a Google Map on the Contact page.
+Requirements:
+Display the business location using Google Maps.
+Position the Google Map beside the Contact Form.
+Ensure both sections occupy equal width on desktop devices.
+Stack the sections vertically on smaller screens.
+Ensure responsiveness across desktop, tablet and mobile devices.
+9.5 FAQ Accordion Prompt
+Prompt:
+Create a Frequently Asked Questions section using an accordion layout.
+Requirements:
+Display frequently asked questions about StockWise IMS.
+Expand and collapse answers when clicked.
+Use Font Awesome dropdown icons.
+Rotate the dropdown icon when the accordion is opened.
+Include smooth opening and closing animations.
+Ensure responsiveness across all devices.
+9.6 Contact Toast Notification Prompt
+Prompt:
+Create a toast notification for the Contact page.
+Requirements:
+Display ✓ Message Sent Successfully after submitting the contact form.
+Automatically hide the notification after a few seconds.
+Use smooth fade-in and fade-out animations.
+Position the notification at the top-right corner.
+Reset the form after successful submission.
+Use JavaScript.
+Ensure responsiveness across all devices.
+9.7 Responsive Design Prompt
+Prompt:
+Make the entire Contact page fully responsive.
+Requirements:
+Make the Contact Information cards responsive.
+Display the Contact Form and Google Map in two equal columns on desktop devices.
+Stack the Contact Form and Google Map vertically on tablets and mobile devices.
+Make the FAQ Accordion responsive.
+Make buttons and form fields responsive.
+Maintain proper spacing and alignment.
+Ensure compatibility across desktop, tablet and mobile devices.
+Preserve readability on all screen sizes.
+
+
+
+10.0 Global Components
+10.1 Sticky Navigation Prompt
+Prompt:
+Create a professional sticky navigation bar for StockWise IMS.
+Requirements:
+Keep the navigation bar fixed at the top while scrolling.
+Display the StockWise IMS logo.
+Display navigation links with dropdown menus.
+Highlight the active page.
+Maintain proper spacing and alignment.
+Ensure responsiveness across desktop, tablet and mobile devices.
+Use HTML, CSS and JavaScript with comments.
+10.2 Sticky Footer Prompt
+Prompt:
+Create a professional footer for StockWise IMS.
+Requirements:
+Display the StockWise IMS footer logo.
+Display a short company description.
+Include Quick Links.
+Include Inventory Links.
+Include Contact Information.
+Include social media icons.
+Display copyright information.
+Maintain a consistent design across all pages.
+Ensure responsiveness across desktop, tablet and mobile devices.
+10.3 Mobile Navigation Prompt
+Prompt:
+Create a responsive mobile navigation menu for StockWise IMS.
+Requirements:
+Add a hamburger menu.
+Toggle the navigation menu on mobile devices.
+Support dropdown navigation items.
+Use smooth animations.
+Automatically adapt to different screen sizes.
+Ensure responsiveness across all devices.
+10.4 Logo Design Prompt
+Prompt:
+Design a professional logo for StockWise IMS.
+Requirements:
+Create a modern inventory management logo.
+Use blue, white and dark navy colours.
+Design a navigation logo for light backgrounds.
+Design a footer logo for dark backgrounds.
+Use a transparent background.
+Ensure the logo is clear and scalable.
+Maintain a consistent brand identity throughout the website.
+10.5 Preloader Prompt
+Prompt:
+Create a modern preloader for StockWise IMS.
+Requirements:
+Display the preloader while the page is loading.
+Hide the preloader automatically when loading is complete.
+Use smooth fade-out animations.
+Position the preloader at the centre of the screen.
+Use the website colour scheme.
+Ensure compatibility across all pages.
+10.6 Back-To-Top Button Prompt
+Prompt:
+Create a Back-To-Top button for StockWise IMS.
+Requirements:
+Display the button when the user scrolls down the page.
+Scroll smoothly back to the top when clicked.
+Position the button at the bottom-right corner.
+Add hover effects.
+Use Font Awesome icons.
+Ensure responsiveness across desktop, tablet and mobile devices.
+10.7 Toast Notification Prompt
+Prompt:
+Create reusable toast notifications for StockWise IMS.
+Requirements:
+Display success notifications after successful form submissions.
+Use a consistent design across all pages.
+Automatically hide notifications after a few seconds.
+Use smooth fade-in and fade-out animations.
+Position notifications at the top-right corner.
+Ensure responsiveness across all devices.
+10.8 Global Buttons Prompt
+Prompt:
+Create reusable button styles for StockWise IMS.
+Requirements:
+Create Primary buttons.
+Create Secondary buttons.
+Create Edit buttons.
+Create Delete buttons.
+Add hover effects.
+Maintain consistent colours throughout the website.
+Ensure responsiveness across all devices.
+10.9 Global Cards Prompt
+Prompt:
+Create reusable card components for StockWise IMS.
+Requirements:
+Use modern card layouts.
+Apply rounded corners.
+Add subtle box shadows.
+Include hover animations.
+Maintain consistent spacing.
+Reuse the cards throughout the Dashboard, Reports, Suppliers and Contact pages.
+Ensure responsiveness across desktop, tablet and mobile devices.
+10.10 Color Theme Prompt
+Prompt:
+Create a consistent colour theme for StockWise IMS.
+Requirements:
+Use blue as the primary colour.
+Use green for success messages and secondary actions.
+Use white backgrounds for content sections.
+Use dark colours for the footer.
+Maintain a professional business appearance.
+Apply consistent colours across all pages.
+10.11 Typography Prompt
+Prompt:
+Create a consistent typography system for StockWise IMS.
+Requirements:
+Use modern Google Fonts.
+Use clear font sizes for headings.
+Use readable font sizes for body text.
+Maintain consistent font weights.
+Apply proper line spacing.
+Ensure readability across desktop, tablet and mobile devices.
+10.12 Responsive Design Prompt
+Prompt:
+Make the entire StockWise IMS website fully responsive.
+Requirements:
+Desktop Layout.
+Tablet Layout.
+Mobile Layout.
+Responsive Navigation Bar.
+Responsive Hero Section.
+Responsive Forms.
+Responsive Tables.
+Responsive Cards.
+Responsive Buttons.
+Responsive Google Map.
+Responsive FAQ Accordion.
+Responsive Footer.
+Responsive Back-To-Top Button.
+Responsive Preloader.
+Responsive Toast Notifications.
+Responsive Hamburger Menu.
+Maintain a consistent user experience across all screen sizes.
+
+Note: 10.0 Global Components, where we'll document all the reusable components we implemented across the entire StockWise IMS website, including the sticky navigation, sticky footer, mobile navigation, logo, preloader, back-to-top button, toast notifications, global buttons, global cards, colour theme, typography, and overall responsive design. 

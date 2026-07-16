@@ -1,0 +1,87 @@
+STOCKWISE IMS PROJECT REPORT
+1.0 Introduction
+StockWise IMS (Inventory Management System) is a modern, responsive multi-page website designed to simplify inventory management for businesses. The system provides an organized interface for managing products, categories, suppliers, stock movement, reports, and customer enquiries.
+The website was developed using HTML5, CSS3, and JavaScript in Visual Studio Code. Throughout the development process, multiple AI prompts were carefully engineered and refined section by section rather than relying on a single prompt. This approach aligns with the concept of Prompt Engineering (Vibe Engineering), where AI-generated code is continuously reviewed, modified, improved, and customized to reflect the developer's own style and project requirements.
+The project consists of the following pages:
+Dashboard (Home)
+Products
+Categories
+Stock In
+Stock Out
+Suppliers
+Reports
+Contact
+Additional reusable components implemented across the website include:
+Sticky Navigation Bar
+Responsive Footer
+Professional Logo
+Hero Image Slider
+Preloader
+Toast Notifications
+Back-To-Top Button
+Responsive Mobile Navigation
+Hover Effects
+Counter Animations
+Scroll Reveal Animations
+The project was designed to provide a clean user interface, responsive layouts, and an improved user experience across desktop, tablet, and mobile devices.
+
+2.0 Challenges Encountered
+During the development of StockWise IMS, several challenges were encountered while implementing different sections of the website.
+2.1 Responsive Navigation
+One of the major challenges was making the navigation bar responsive across different screen sizes. The mobile menu initially failed to open correctly because of incorrect JavaScript element selection and CSS class handling.
+2.2 Hero Section Responsiveness
+Adjusting the hero background image to display correctly on mobile devices was challenging. The image alignment caused important parts of the background to disappear on smaller screens.
+2.3 Button Hover Effects
+The primary and secondary buttons initially failed to display hover effects because of conflicting CSS styles between the global stylesheet and page-specific styles.
+2.4 Back-To-Top Button
+The Back-To-Top button did not appear as expected due to JavaScript implementation issues and incorrect CSS positioning.
+2.5 Toast Notifications
+Implementing reusable toast notifications across multiple pages required careful JavaScript organization. Initially, notifications did not display after form submissions.
+2.6 Modal Forms
+The Add Product and Add Category modal forms remained open after successful submission, reducing the overall user experience.
+2.7 Form Reset
+Some forms retained previously entered information after submission, requiring additional JavaScript to reset the forms automatically.
+
+
+
+
+2.8 Responsive Tables
+Displaying inventory tables on mobile devices presented challenges because large tables exceeded the screen width.
+2.9 Logo Design
+Creating a professional logo that displayed clearly on both the white navigation bar and the dark footer required several design revisions before achieving a consistent appearance.
+2.10 Navigation Across Multiple Pages
+Maintaining consistent navigation, footer, logo paths, JavaScript files, and image references across all pages required careful folder organization and relative path management.
+3.0 Solutions Implemented
+The challenges encountered during development were successfully resolved through testing, debugging, and continuous refinement.
+3.1 Responsive Navigation
+The navigation menu was redesigned using a responsive hamburger menu controlled by JavaScript and CSS media queries, allowing smooth navigation on mobile devices.
+3.2 Hero Section
+The hero background positioning and image scaling were adjusted using responsive CSS properties to ensure proper visibility across all devices.
+3.3 Button Hover Effects
+Global button styles were reviewed and updated to eliminate CSS conflicts, ensuring consistent hover animations throughout the website.
+3.4 Back-To-Top Button
+The Back-To-Top component was rebuilt using JavaScript scroll detection and smooth scrolling, providing better usability.
+3.5 Toast Notifications
+A reusable JavaScript toast notification system was created to provide instant feedback after successful operations such as:
+Product Added Successfully
+Category Added Successfully
+Supplier Added Successfully
+Stock Updated Successfully
+Stock Removed Successfully
+Message Sent Successfully
+3.6 Modal Behaviour
+JavaScript was updated so that modal windows automatically close after successful form submission while also clearing all input fields.
+3.7 Responsive Tables
+Responsive table containers with horizontal scrolling were implemented to improve accessibility on tablets and smartphones.
+3.8 Logo Improvement
+A professional StockWise IMS logo was designed with different versions for light and dark backgrounds, ensuring consistency across the navigation bar and footer.
+3.9 Responsive Design
+Extensive media queries were implemented to optimize layouts for desktop, tablet, and mobile devices, ensuring a consistent user experience.
+3.10 Code Organization
+The project files were organized into separate HTML, CSS, JavaScript, and image folders. Global styles and reusable JavaScript functions were centralized to improve maintainability and reduce code duplication.
+
+4.0 Conclusion
+The StockWise IMS project successfully demonstrates the development of a modern and responsive Inventory Management System using HTML5, CSS3, and JavaScript. The project applies Prompt Engineering techniques by generating, reviewing, modifying, and improving AI-assisted code section by section instead of relying entirely on automatically generated solutions.
+Throughout the development process, several practical web development concepts were implemented, including responsive layouts, reusable components, animations, modal forms, toast notifications, responsive navigation, responsive tables, and consistent UI/UX design principles.
+The project also strengthened skills in problem-solving, debugging, responsive web design, JavaScript interactivity, CSS styling, and project organization. By overcoming the challenges encountered during development, the final application became more user-friendly, visually appealing, and maintainable.
+Overall, StockWise IMS serves as a practical demonstration of frontend web development skills and showcases the effective use of AI-assisted Prompt Engineering to create a professional multi-page website while maintaining full control over the design, structure, and implementation of the final solution.

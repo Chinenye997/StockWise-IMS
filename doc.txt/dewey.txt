@@ -1,0 +1,625 @@
+DEWEY CLASSIFICATION DOCUMENTATION FOR STOCKWISE IMS
+1.0 Dashboard (Home Page)
+1.1 Navigation Section
+1.1.1 Logo
+1.1.1.1 StockWise IMS Logo
+1.1.1.2 Home Link
+1.1.2 Navigation Menu
+1.1.2.1 Dashboard
+1.1.2.2 Products
+1.1.2.3 Categories
+1.1.2.4 Stock
+1.1.2.5 Reports
+1.1.2.6 Contact
+1.1.3 Dropdown Menu
+1.1.3.1 Products
+1.1.3.2 Categories
+1.1.3.3 Suppliers
+1.1.3.4 Stock In
+1.1.3.5 Stock Out
+1.1.4 Active Navigation
+1.1.4.1 Current Page Indicator
+1.1.5 Mobile Navigation
+1.1.5.1 Hamburger Menu
+1.1.5.2 Responsive Navigation Menu
+
+1.2 Hero Section
+1.2.1 Background Slider
+1.2.1.1 Hero Background Images
+1.2.1.2 Automatic Image Slider
+1.2.1.3 Image Overlay
+1.2.2 Hero Content
+1.2.2.1 Main Heading
+1.2.2.2 Hero Description
+1.2.3 Call-To-Action Buttons
+1.2.3.1 View Products Button
+1.2.3.2 View Reports Button
+
+1.3 Statistics Section
+1.3.1 Statistics Cards
+1.3.1.1 Total Products
+1.3.1.2 Total Categories
+1.3.1.3 Total Suppliers
+1.3.1.4 Available Stock
+1.3.2 Counter Animation
+1.3.2.1 Animated Number Counter
+1.3.2.2 Scroll Activated Counter
+
+1.4 Features Section
+1.4.1 Feature Cards
+1.4.1.1 Product Management
+1.4.1.2 Category Management
+1.4.1.3 Supplier Management
+1.4.1.4 Inventory Tracking
+
+1.5 Recent Activities Section
+1.5.1 Activity Cards
+1.5.1.1 Stock Added Activity
+1.5.1.2 Stock Removed Activity
+1.5.1.3 New Supplier Activity
+1.5.1.4 New Product Activity
+
+1.6 Why Choose StockWise Section
+1.6.1 Information Cards
+1.6.1.1 Secure Inventory Management
+1.6.1.2 Fast Stock Tracking
+1.6.1.3 Easy Product Management
+1.6.1.4 Real-Time Inventory Monitoring
+
+1.7 Responsive Design
+1.7.1 Desktop Layout
+1.7.1.1 Desktop Navigation
+1.7.1.2 Desktop Hero Section
+1.7.1.3 Desktop Statistics Layout
+1.7.2 Tablet Layout
+1.7.2.1 Tablet Navigation
+1.7.2.2 Tablet Hero Section
+1.7.2.3 Tablet Statistics Layout
+1.7.3 Mobile Layout
+1.7.3.1 Mobile Navigation
+1.7.3.2 Mobile Hero Section
+1.7.3.3 Mobile Statistics Layout
+1.7.3.4 Mobile Feature Cards
+
+2.0 Products Page
+2.1 Products Header Section
+2.1.1 Page Title
+2.1.1.1 Products Heading
+2.1.1.2 Products Description
+2.1.2 Product Controls
+2.1.2.1 Add Product Button
+2.1.2.2 Search Bar
+2.1.2.3 Category Filter
+
+2.2 Products Table Section
+2.2.1 Table Header
+2.2.1.1 Product Name
+2.2.1.2 Category
+2.2.1.3 Quantity
+2.2.1.4 Price
+2.2.1.5 Status
+2.2.1.6 Actions
+2.2.2 Product Records
+2.2.2.1 Product Information
+2.2.2.2 Product Quantity
+2.2.2.3 Product Price
+2.2.2.4 Product Status
+2.2.3 Action Buttons
+2.2.3.1 Edit Product Button
+2.2.3.2 Delete Product Button
+
+2.3 Search Function
+2.3.1 Product Search
+2.3.1.1 Search by Product Name
+2.3.1.2 Real-Time Search Results
+
+2.4 Category Filter
+2.4.1 Filter Products
+2.4.1.1 Filter by Category
+2.4.1.2 Display All Products
+
+2.5 Add Product Modal
+2.5.1 Modal Window
+2.5.1.1 Open Modal
+2.5.1.2 Close Modal
+2.5.1.3 Close Outside Modal
+2.5.2 Product Form
+2.5.2.1 Product Name Field
+2.5.2.2 Category Field
+2.5.2.3 Quantity Field
+2.5.2.4 Price Field
+2.5.2.5 Product Status Dropdown
+2.5.2.6 Save Product Button
+
+2.6 Product Notification
+2.6.1 Toast Message
+2.6.1.1 Product Added Successfully Message
+2.6.1.2 Automatic Notification Display
+2.6.1.3 Automatic Notification Close
+
+2.7 Responsive Design
+2.7.1 Desktop Layout
+2.7.1.1 Desktop Product Table
+2.7.1.2 Desktop Product Controls
+2.7.2 Tablet Layout
+2.7.2.1 Tablet Product Table
+2.7.2.2 Tablet Search and Filter
+2.7.3 Mobile Layout
+2.7.3.1 Mobile Product Table
+2.7.3.2 Horizontal Table Scrolling
+2.7.3.3 Responsive Product Modal
+2.7.3.4 Responsive Search and Filter
+
+3.0 Categories Page
+3.1 Categories Header Section
+3.1.1 Page Title
+3.1.1.1 Categories Heading
+3.1.1.2 Categories Description
+3.1.2 Category Controls
+3.1.2.1 Add Category Button
+3.1.2.2 Search Bar
+
+3.2 Categories Table Section
+3.2.1 Table Header
+3.2.1.1 Category Name
+3.2.1.2 Description
+3.2.1.3 Number of Products
+3.2.1.4 Date Created
+3.2.1.5 Actions
+3.2.2 Category Records
+3.2.2.1 Category Information
+3.2.2.2 Product Count
+3.2.2.3 Creation Date
+3.2.3 Action Buttons
+3.2.3.1 Edit Category Button
+3.2.3.2 Delete Category Button
+
+3.3 Search Function
+3.3.1 Category Search
+3.3.1.1 Search by Category Name
+3.3.1.2 Real-Time Search Results
+
+3.4 Add Category Modal
+3.4.1 Modal Window
+3.4.1.1 Open Modal
+3.4.1.2 Close Modal
+3.4.1.3 Close Outside Modal
+3.4.2 Category Form
+3.4.2.1 Category Name Field
+3.4.2.2 Category Description Field
+3.4.2.3 Save Category Button
+
+3.5 Category Notification
+3.5.1 Toast Message
+3.5.1.1 Category Added Successfully Message
+3.5.1.2 Automatic Notification Display
+3.5.1.3 Automatic Notification Close
+3.5.1.4 Automatic Form Reset
+3.6 Responsive Design
+3.6.1 Desktop Layout
+3.6.1.1 Desktop Categories Table
+3.6.1.2 Desktop Search Bar
+3.6.2 Tablet Layout
+3.6.2.1 Tablet Categories Table
+3.6.2.2 Tablet Category Controls
+3.6.3 Mobile Layout
+3.6.3.1 Mobile Categories Table
+3.6.3.2 Horizontal Table Scrolling
+3.6.3.3 Responsive Category Modal
+3.6.3.4 Responsive Search Bar
+
+4.0 Stock In Page
+4.1 Stock In Header Section
+4.1.1 Page Title
+4.1.1.1 Stock In Heading
+4.1.1.2 Stock In Description
+4.1.2 Stock In Controls
+4.1.2.1 Stock In Form
+4.1.2.2 Save Stock In Button
+
+4.2 Stock In Form Section
+4.2.1 Product Information
+4.2.1.1 Product Selection
+4.2.1.2 Quantity Input
+4.2.1.3 Unit Price Input
+4.2.2 Supplier Information
+4.2.2.1 Supplier Selection
+4.2.2.2 Date Received
+4.2.2.3 Reference Number
+4.2.3 Additional Information
+4.2.3.1 Remarks Field
+4.2.3.2 Form Validation
+
+4.3 Recent Stock In Records Section
+4.3.1 Records Table
+4.3.1.1 Product Name
+4.3.1.2 Supplier Name
+4.3.1.3 Quantity Added
+4.3.1.4 Date Received
+4.3.1.5 Reference Number
+4.3.1.6 Status
+4.3.2 Record Actions
+4.3.2.1 View Record
+4.3.2.2 Edit Record
+4.4 Stock In Notification
+4.4.1 Toast Message
+4.4.1.1 Stock Updated Successfully Message
+4.4.1.2 Automatic Notification Display
+4.4.1.3 Automatic Notification Close
+4.4.1.4 Automatic Form Reset
+4.5 Responsive Design
+4.5.1 Desktop Layout
+4.5.1.1 Desktop Stock In Form
+4.5.1.2 Desktop Records Table
+4.5.2 Tablet Layout
+4.5.2.1 Tablet Stock In Form
+4.5.2.2 Tablet Records Table
+4.5.3 Mobile Layout
+4.5.3.1 Mobile Stock In Form
+4.5.3.2 Responsive Input Fields
+4.5.3.3 Horizontal Table Scrolling
+4.5.3.4 Responsive Buttons
+
+5.0 Stock Out Page
+5.1 Stock Out Header Section
+5.1.1 Page Title
+5.1.1.1 Stock Out Heading
+5.1.1.2 Stock Out Description
+5.1.2 Stock Out Controls
+5.1.2.1 Stock Out Form
+5.1.2.2 Save Stock Out Button
+5.2 Stock Out Form Section
+5.2.1 Product Information
+5.2.1.1 Product Selection
+5.2.1.2 Quantity Input
+5.2.1.3 Date Issued
+5.2.2 Destination Information
+5.2.2.1 Destination Field
+5.2.2.2 Issued To Field
+5.2.2.3 Reference Number
+5.2.3 Additional Information
+5.2.3.1 Remarks Field
+5.2.3.2 Form Validation
+5.3 Recent Stock Out Records Section
+5.3.1 Records Table
+5.3.1.1 Product Name
+5.3.1.2 Quantity Removed
+5.3.1.3 Destination
+5.3.1.4 Date Issued
+5.3.1.5 Reference Number
+5.3.1.6 Status
+5.3.2 Record Actions
+5.3.2.1 View Record
+5.3.2.2 Edit Record
+5.4 Stock Out Notification
+5.4.1 Toast Message
+5.4.1.1 Stock Removed Successfully Message
+5.4.1.2 Automatic Notification Display
+5.4.1.3 Automatic Notification Close
+5.4.1.4 Automatic Form Reset
+5.5 Responsive Design
+5.5.1 Desktop Layout
+5.5.1.1 Desktop Stock Out Form
+5.5.1.2 Desktop Records Table
+5.5.2 Tablet Layout
+5.5.2.1 Tablet Stock Out Form
+5.5.2.2 Tablet Records Table
+5.5.3 Mobile Layout
+5.5.3.1 Mobile Stock Out Form
+5.5.3.2 Responsive Input Fields
+5.5.3.3 Horizontal Table Scrolling
+5.5.3.4 Responsive Buttons
+6.0 Suppliers Page
+6.1 Suppliers Header Section
+6.1.1 Page Title
+6.1.1.1 Suppliers Heading
+6.1.1.2 Suppliers Description
+6.1.2 Supplier Controls
+6.1.2.1 Add Supplier Button
+6.1.2.2 Search Bar
+6.2 Supplier Information Section
+6.2.1 Supplier Cards
+6.2.1.1 Total Suppliers
+6.2.1.2 Active Suppliers
+6.2.1.3 Pending Suppliers
+6.2.1.4 Inactive Suppliers
+6.3 Suppliers Table Section
+6.3.1 Table Header
+6.3.1.1 Supplier Name
+6.3.1.2 Company Name
+6.3.1.3 Email Address
+6.3.1.4 Phone Number
+6.3.1.5 Address
+6.3.1.6 Status
+6.3.1.7 Actions
+6.3.2 Supplier Records
+6.3.2.1 Supplier Details
+6.3.2.2 Company Information
+6.3.2.3 Contact Information
+6.3.2.4 Supplier Status
+
+6.3.3 Action Buttons
+6.3.3.1 Edit Supplier Button
+6.3.3.2 Delete Supplier Button
+6.4 Add Supplier Modal Section
+6.4.1 Modal Window
+6.4.1.1 Open Modal
+6.4.1.2 Close Modal
+6.4.1.3 Close Outside Modal
+6.4.2 Supplier Form
+6.4.2.1 Supplier Name Field
+6.4.2.2 Company Name Field
+6.4.2.3 Email Address Field
+6.4.2.4 Phone Number Field
+6.4.2.5 Address Field
+6.4.2.6 Save Supplier Button
+6.5 Supplier Notification
+6.5.1 Toast Message
+6.5.1.1 Supplier Added Successfully Message
+6.5.1.2 Automatic Notification Display
+6.5.1.3 Automatic Notification Close
+6.5.1.4 Automatic Form Reset
+6.6 Responsive Design
+6.6.1 Desktop Layout
+6.6.1.1 Desktop Supplier Cards
+6.6.1.2 Desktop Suppliers Table
+6.6.2 Tablet Layout
+6.6.2.1 Tablet Supplier Cards
+6.6.2.2 Tablet Suppliers Table
+
+6.6.3 Mobile Layout
+6.6.3.1 Mobile Supplier Cards
+6.6.3.2 Horizontal Table Scrolling
+6.6.3.3 Responsive Supplier Modal
+6.6.3.4 Responsive Contact Information
+6.6.3.5 Responsive Action Buttons
+
+7.0 Reports Page
+7.1 Reports Header Section
+7.1.1 Page Title
+7.1.1.1 Reports Heading
+7.1.1.2 Reports Description
+7.1.2 Report Controls
+7.1.2.1 Export Report Button
+7.1.2.2 Print Report Button
+7.2 Report Summary Section
+7.2.1 Summary Cards
+7.2.1.1 Total Products Report
+7.2.1.2 Total Categories Report
+7.2.1.3 Total Suppliers Report
+7.2.1.4 Available Stock Report
+7.2.2 Report Statistics
+7.2.2.1 Inventory Summary
+7.2.2.2 Stock Performance
+7.2.2.3 Business Overview
+7.3 Reports Table Section
+7.3.1 Table Header
+7.3.1.1 Report Name
+7.3.1.2 Report Type
+7.3.1.3 Date Generated
+7.3.1.4 Status
+7.3.1.5 Actions
+7.3.2 Report Records
+7.3.2.1 Report Details
+7.3.2.2 Report Status
+7.3.2.3 Generated Date
+7.3.3 Action Buttons
+7.3.3.1 View Report Button
+7.3.3.2 Export Report Button
+7.4 Report Export Section
+7.4.1 Export Options
+7.4.1.1 Export to PDF
+7.4.1.2 Export to Excel
+7.4.2 Print Options
+7.4.2.1 Print Report
+7.4.2.2 Download Report
+7.5 Responsive Design
+7.5.1 Desktop Layout
+7.5.1.1 Desktop Report Cards
+7.5.1.2 Desktop Reports Table
+7.5.2 Tablet Layout
+7.5.2.1 Tablet Report Cards
+7.5.2.2 Tablet Reports Table
+7.5.3 Mobile Layout
+7.5.3.1 Mobile Report Cards
+7.5.3.2 Horizontal Table Scrolling
+7.5.3.3 Responsive Report Buttons
+7.5.3.4 Responsive Export Controls
+8.0 Contact Page
+8.1 Contact Header Section
+8.1.1 Page Title
+8.1.1.1 Contact Heading
+8.1.1.2 Contact Description
+8.2 Contact Information Section
+8.2.1 Contact Cards
+8.2.1.1 Office Address
+8.2.1.2 Phone Number
+8.2.1.3 Email Address
+8.2.1.4 Business Hours
+8.3 Contact Form Section
+8.3.1 Contact Form
+8.3.1.1 Full Name Field
+8.3.1.2 Email Address Field
+8.3.1.3 Subject Field
+8.3.1.4 Message Field
+8.3.1.5 Send Message Button
+8.3.2 Form Validation
+8.3.2.1 Required Field Validation
+8.3.2.2 Form Submission
+8.3.2.3 Form Reset
+8.4 Google Maps Section
+8.4.1 Embedded Map
+8.4.1.1 Business Location
+8.4.1.2 Interactive Google Map
+
+8.5 Frequently Asked Questions (FAQ) Section
+8.5.1 FAQ Accordion
+8.5.1.1 Expand Question
+8.5.1.2 Collapse Question
+8.5.1.3 Accordion Animation
+8.5.2 FAQ Content
+8.5.2.1 Inventory Management Questions
+8.5.2.2 Product Management Questions
+8.5.2.3 Supplier Management Questions
+8.5.2.4 Contact Support Questions
+8.6 Contact Notification
+8.6.1 Toast Message
+8.6.1.1 Message Sent Successfully
+8.6.1.2 Automatic Notification Display
+8.6.1.3 Automatic Notification Close
+8.6.1.4 Automatic Form Reset
+8.7 Responsive Design
+8.7.1 Desktop Layout
+8.7.1.1 Desktop Contact Cards
+8.7.1.2 Desktop Contact Form
+8.7.1.3 Desktop Google Map
+8.7.2 Tablet Layout
+8.7.2.1 Tablet Contact Cards
+8.7.2.2 Tablet Contact Form
+8.7.2.3 Tablet Google Map
+8.7.3 Mobile Layout
+8.7.3.1 Mobile Contact Cards
+8.7.3.2 Mobile Contact Form
+8.7.3.3 Mobile Google Map
+8.7.3.4 Responsive FAQ Accordion
+
+9.0 Global Components
+9.1 Navigation Component
+9.1.1 Website Logo
+9.1.1.1 StockWise IMS Logo
+9.1.1.2 Home Link
+9.1.2 Navigation Menu
+9.1.2.1 Dashboard
+9.1.2.2 Products
+9.1.2.3 Categories
+9.1.2.4 Stock
+9.1.2.5 Reports
+9.1.2.6 Contact
+9.1.3 Dropdown Navigation
+9.1.3.1 Products Dropdown
+9.1.3.2 Categories
+9.1.3.3 Suppliers
+9.1.3.4 Stock In
+9.1.3.5 Stock Out
+9.1.4 Mobile Navigation
+9.1.4.1 Hamburger Menu
+9.1.4.2 Mobile Navigation Toggle
+9.2 Footer Component
+9.2.1 Footer Logo
+9.2.1.1 StockWise IMS Footer Logo
+9.2.2 Company Information
+9.2.2.1 Company Description
+9.2.3 Quick Links
+9.2.3.1 Dashboard
+9.2.3.2 Products
+9.2.3.3 Categories
+9.2.3.4 Suppliers
+9.2.3.5 Contact
+9.2.4 Inventory Links
+9.2.4.1 Stock In
+9.2.4.2 Stock Out
+9.2.4.3 Reports
+9.2.5 Contact Information
+9.2.5.1 Office Address
+9.2.5.2 Email Address
+9.2.5.3 Phone Number
+9.2.6 Social Media Links
+9.2.6.1 Facebook
+9.2.6.2 Instagram
+9.2.6.3 LinkedIn
+9.2.6.4 Twitter (X)
+9.2.7 Copyright
+9.2.7.1 Copyright Notice
+9.3 Preloader Component
+9.3.1 Loading Screen
+9.3.1.1 Loading Animation
+9.3.1.2 Automatic Page Loading
+9.3.1.3 Fade-Out Effect
+9.4 Back-To-Top Component
+9.4.1 Back-To-Top Button
+9.4.1.1 Scroll Detection
+9.4.1.2 Smooth Scroll Animation
+9.4.1.3 Fixed Bottom Position
+
+
+9.5 Toast Notification Component
+9.5.1 Success Notifications
+9.5.1.1 Product Added Successfully
+9.5.1.2 Category Added Successfully
+9.5.1.3 Supplier Added Successfully
+9.5.1.4 Stock Updated Successfully
+9.5.1.5 Stock Removed Successfully
+9.5.1.6 Message Sent Successfully
+9.5.2 Notification Behaviour
+9.5.2.1 Automatic Display
+9.5.2.2 Automatic Close
+9.5.2.3 Fade Animation
+9.6 Global Buttons Component
+9.6.1 Primary Buttons
+9.6.1.1 View Products Button
+9.6.1.2 Save Button
+9.6.1.3 Submit Button
+9.6.2 Secondary Buttons
+9.6.2.1 View Reports Button
+9.6.2.2 Cancel Button
+9.6.3 Action Buttons
+9.6.3.1 Edit Button
+9.6.3.2 Delete Button
+9.6.4 Button Effects
+9.6.4.1 Hover Effect
+9.6.4.2 Transition Animation
+9.7 Global Cards Component
+9.7.1 Dashboard Cards
+9.7.1.1 Statistics Cards
+9.7.1.2 Feature Cards
+9.7.1.3 Activity Cards
+9.7.2 Information Cards
+9.7.2.1 Supplier Cards
+9.7.2.2 Report Cards
+9.7.2.3 Contact Cards
+9.7.3 Card Effects
+9.7.3.1 Hover Animation
+9.7.3.2 Box Shadow
+9.7.3.3 Rounded Corners
+9.8 Website Colour Theme
+9.8.1 Primary Colours
+9.8.1.1 Blue Theme
+9.8.1.2 White Background
+9.8.1.3 Dark Footer
+9.8.2 Status Colours
+9.8.2.1 Green Success Messages
+9.8.2.2 Red Delete Actions
+9.8.2.3 Yellow Warning Indicators
+9.9 Typography Component
+9.9.1 Headings
+9.9.1.1 Page Titles
+9.9.1.2 Section Headings
+9.9.2 Body Text
+9.9.2.1 Paragraph Text
+9.9.2.2 Table Content
+9.9.2.3 Form Labels
+9.10 JavaScript Components
+9.10.1 Hero Image Slider
+9.10.1.1 Automatic Image Rotation
+9.10.1.2 Slide Transition Effect
+9.10.2 Counter Animation
+9.10.2.1 Animated Statistics
+9.10.2.2 Scroll Activated Counter
+9.10.3 Scroll Reveal Animation
+9.10.3.1 Section Reveal Effect
+9.10.3.2 Fade-In Animation
+9.11 Responsive Design
+9.11.1 Desktop View
+9.11.1.1 Desktop Layout
+9.11.1.2 Desktop Navigation
+9.11.1.3 Desktop Tables
+9.11.2 Tablet View
+9.11.2.1 Tablet Layout
+9.11.2.2 Tablet Navigation
+9.11.2.3 Tablet Cards
+9.11.3 Mobile View
+9.11.3.1 Mobile Navigation
+9.11.3.2 Mobile Tables
+9.11.3.3 Mobile Forms
+9.11.3.4 Mobile Cards
+9.11.3.5 Mobile Footer
